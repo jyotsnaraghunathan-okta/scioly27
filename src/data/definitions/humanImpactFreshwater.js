@@ -1,0 +1,118 @@
+export const humanImpactFreshwaterDefinitions = [
+  {
+    id: 'def-hi-001',
+    term: 'Point Source Pollution',
+    definition:
+      'Water pollution that originates from a single, identifiable source, such as a discharge pipe or outfall. In the U.S., point sources are regulated under the Clean Water Act\'s NPDES permitting program.',
+    example: 'A factory discharging wastewater through a single outflow pipe into a river is a point source of pollution.',
+    relatedTerms: ['Nonpoint Source Pollution', 'Clean Water Act', 'NPDES Permit'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Point & Nonpoint Pollution Sources',
+  },
+  {
+    id: 'def-hi-002',
+    term: 'Nonpoint Source Pollution',
+    definition:
+      'Water pollution originating from diffuse sources spread across the landscape rather than a single discharge point, such as agricultural runoff or urban stormwater; it is a leading cause of water quality impairment in many U.S. waters and is harder to regulate than point source pollution.',
+    example: 'Fertilizer and pesticide residue washing off many farm fields across a watershed during a rainstorm is nonpoint source pollution.',
+    relatedTerms: ['Point Source Pollution', 'Best Management Practices', 'Eutrophication'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Point & Nonpoint Pollution Sources',
+  },
+  {
+    id: 'def-hi-003',
+    term: 'Biochemical Oxygen Demand (BOD)',
+    definition:
+      'A measure of the amount of dissolved oxygen consumed by microorganisms as they decompose organic matter in a water sample, typically measured over 5 days (BOD5); a high BOD indicates heavy organic pollution and a risk of oxygen depletion for aquatic life.',
+    example: 'Raw sewage discharge can dramatically raise a stream\'s BOD, depleting dissolved oxygen and stressing fish downstream.',
+    relatedTerms: ['Dissolved Oxygen', 'Eutrophication', 'Point Source Pollution'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Point & Nonpoint Pollution Sources',
+  },
+  {
+    id: 'def-hi-004',
+    term: 'Riparian Rights',
+    definition:
+      'A water rights doctrine, common in the Eastern United States, that grants landowners whose property borders a water body the right to make reasonable use of that water.',
+    example: 'Under riparian rights, a homeowner along a river generally may draw water for household use as long as it does not unreasonably harm other riparian landowners.',
+    relatedTerms: ['Prior Appropriation', 'Water Rights', 'Water Diversion'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Water Rights & Management',
+  },
+  {
+    id: 'def-hi-005',
+    term: 'Prior Appropriation',
+    definition:
+      'A water rights doctrine, common in the Western United States, that allocates water use rights based on the principle "first in time, first in right" — the earliest users of a water source retain priority access during shortages, regardless of land ownership near the source.',
+    example: 'During a drought, a farmer with a water right established in 1920 would have priority over a farmer with a right established in 1980 under prior appropriation.',
+    relatedTerms: ['Riparian Rights', 'Water Rights', 'Water Diversion'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Water Rights & Management',
+  },
+  {
+    id: 'def-hi-006',
+    term: 'Water Diversion',
+    definition: 'The redirection of water from its natural channel to another location, often through canals, aqueducts, or pipelines, for irrigation, municipal supply, or industrial use.',
+    example: 'Large-scale water diversions move Colorado River water hundreds of miles to supply cities and farmland outside its natural drainage basin.',
+    relatedTerms: ['Water Rights', 'Reservoir', 'Prior Appropriation'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Water Rights & Management',
+  },
+  {
+    id: 'def-hi-007',
+    term: 'Dam',
+    definition: 'A barrier built across a river or stream to control water flow, store water in a reservoir, generate hydroelectric power, or provide flood control.',
+    example: 'Hoover Dam, on the Colorado River, stands 726.4 feet tall and impounds Lake Mead.',
+    relatedTerms: ['Reservoir', 'Fish Ladder', 'Hydroelectric Power'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Dams & Reservoirs',
+  },
+  {
+    id: 'def-hi-008',
+    term: 'Reservoir',
+    definition:
+      'An artificial lake created by damming a river, used to store water for irrigation, drinking water supply, flood control, hydroelectric power generation, or recreation.',
+    example: 'Lake Mead, formed by Hoover Dam, is the largest reservoir by storage capacity in the United States.',
+    relatedTerms: ['Dam', 'Water Diversion', 'Sedimentation'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Dams & Reservoirs',
+  },
+  {
+    id: 'def-hi-009',
+    term: 'Fish Ladder',
+    definition: 'A structure built alongside a dam that allows migratory fish, such as salmon, to bypass the obstruction and continue upstream to spawn.',
+    example: 'Fish ladders on Pacific Northwest dams help salmon runs reach upstream spawning grounds despite the dams blocking the main channel.',
+    relatedTerms: ['Dam', 'Migratory Fish', 'Reservoir'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Dams & Reservoirs',
+  },
+  {
+    id: 'def-hi-010',
+    term: 'Snowpack',
+    definition:
+      "Accumulated layers of compacted snow in mountainous regions that gradually melt in spring and summer, acting as a natural water storage reservoir that releases water to downstream rivers over an extended period.",
+    example: 'The Sierra Nevada snowpack supplies a substantial share of California\'s water during the dry summer months as it melts.',
+    relatedTerms: ['Streamflow Timing', 'Climate Change', 'Drought'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Climate Change Effects on Freshwater',
+  },
+  {
+    id: 'def-hi-011',
+    term: 'Best Management Practices (BMPs)',
+    definition:
+      'Conservation techniques and structural or procedural methods designed to reduce nonpoint source pollution and manage water resources sustainably, such as cover crops, buffer strips, and stormwater detention basins.',
+    example: 'A farmer planting cover crops and reducing tillage to limit soil erosion is applying agricultural best management practices.',
+    relatedTerms: ['Nonpoint Source Pollution', 'Riparian Buffer', 'Conservation'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Conservation & Best Management Practices',
+  },
+  {
+    id: 'def-hi-012',
+    term: 'Riparian Buffer',
+    definition: 'A strip of vegetation maintained along a stream, river, or lake shoreline that filters pollutants from runoff, stabilizes banks against erosion, and provides wildlife habitat.',
+    example: 'Planting a riparian buffer of native grasses and trees along a farm\'s stream edge can significantly reduce the amount of sediment and nutrients reaching the water.',
+    relatedTerms: ['Best Management Practices', 'Nonpoint Source Pollution', 'Erosion'],
+    topic: 'human-impact-freshwater',
+    subtopic: 'Conservation & Best Management Practices',
+  },
+]
