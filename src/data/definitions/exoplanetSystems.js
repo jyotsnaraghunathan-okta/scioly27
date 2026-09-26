@@ -140,7 +140,7 @@ export const exoplanetSystemsDefinitions = [
       "Kepler-452b's Sun-like host star and near-Earth-length orbital period led to its popular nickname as \"Earth's cousin,\" though its larger radius means its true composition (rocky vs. gas-rich sub-Neptune) remains uncertain.",
     relatedTerms: ['Kepler space telescope', 'habitable zone', 'super-Earth'],
     topic: 'exoplanet-systems',
-    subtopic: 'Kepler-452b & LHS 1140 b',
+    subtopic: 'Kepler-452b',
   },
   {
     id: 'def-exo-014',
@@ -151,7 +151,7 @@ export const exoplanetSystemsDefinitions = [
       "Because its host star is unusually quiet for a red dwarf, LHS 1140 b is considered a higher-priority target than more flare-prone systems for JWST atmospheric characterization attempts.",
     relatedTerms: ['transit method', 'radial velocity method', 'red dwarf habitability'],
     topic: 'exoplanet-systems',
-    subtopic: 'Kepler-452b & LHS 1140 b',
+    subtopic: 'LHS 1140 b',
   },
   {
     id: 'def-exo-015',
@@ -162,7 +162,18 @@ export const exoplanetSystemsDefinitions = [
       "Kepler-452b's radius of about 1.6 Earth radii places it near the boundary where planets could be either rocky super-Earths or gas-rich sub-Neptunes, illustrating why radius alone is an incomplete guide to habitability.",
     relatedTerms: ['super-Earth', 'sub-Neptune', 'radius gap'],
     topic: 'exoplanet-systems',
-    subtopic: 'Kepler-452b & LHS 1140 b',
+    subtopic: 'Kepler-452b',
+  },
+  {
+    id: 'def-exo-017',
+    term: 'HR 8799 System',
+    definition:
+      "A young star orbited by four giant planets that were directly imaged in 2008, making it one of the first multi-planet exoplanetary systems ever photographed directly rather than detected indirectly through transits or radial velocity.",
+    example:
+      "The HR 8799 planets are large, hot, and young, and orbit far from their star, which is exactly the combination of traits (bright, widely separated, still glowing from formation heat) that makes direct imaging feasible.",
+    relatedTerms: ['direct imaging', 'coronagraph', 'young giant planet'],
+    topic: 'exoplanet-systems',
+    subtopic: 'Detection Methods',
   },
   {
     id: 'def-exo-016',

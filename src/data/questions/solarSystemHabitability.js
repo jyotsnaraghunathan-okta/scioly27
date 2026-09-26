@@ -81,7 +81,7 @@ export const solarSystemHabitabilityQuestions = [
   {
     id: 'q-ssh-006',
     topic: 'solar-system-habitability',
-    subtopic: 'Europa & Enceladus: Subsurface Oceans',
+    subtopic: 'Europa: Subsurface Ocean & Ice Shell',
     type: 'multiple-choice',
     difficulty: 'easy',
     question: "What is the primary evidence that Europa has a subsurface liquid ocean beneath its icy crust?",
@@ -98,7 +98,7 @@ export const solarSystemHabitabilityQuestions = [
   {
     id: 'q-ssh-007',
     topic: 'solar-system-habitability',
-    subtopic: 'Europa & Enceladus: Subsurface Oceans',
+    subtopic: 'Enceladus: Plumes & Hydrothermal Chemistry',
     type: 'multiple-choice',
     difficulty: 'medium',
     question: 'What did the Cassini spacecraft detect by flying directly through plumes erupting from Enceladus?',
@@ -115,7 +115,7 @@ export const solarSystemHabitabilityQuestions = [
   {
     id: 'q-ssh-008',
     topic: 'solar-system-habitability',
-    subtopic: 'Europa & Enceladus: Subsurface Oceans',
+    subtopic: 'Enceladus: Plumes & Hydrothermal Chemistry',
     type: 'fill-in-blank',
     difficulty: 'hard',
     question: "The detection of molecular ______ in Enceladus's plumes is consistent with ongoing hydrothermal reactions between water and rock at its seafloor.",
@@ -240,7 +240,7 @@ export const solarSystemHabitabilityQuestions = [
   {
     id: 'q-ssh-016',
     topic: 'solar-system-habitability',
-    subtopic: 'Makemake & Other Trans-Neptunian Dwarf Planets',
+    subtopic: 'Makemake: Trans-Neptunian Dwarf Planet',
     type: 'multiple-choice',
     difficulty: 'easy',
     question: 'Makemake is classified as a:',
@@ -256,7 +256,7 @@ export const solarSystemHabitabilityQuestions = [
   {
     id: 'q-ssh-017',
     topic: 'solar-system-habitability',
-    subtopic: 'Makemake & Other Trans-Neptunian Dwarf Planets',
+    subtopic: 'Makemake: Trans-Neptunian Dwarf Planet',
     type: 'multiple-choice',
     difficulty: 'medium',
     question: 'Unlike Pluto, Makemake:',

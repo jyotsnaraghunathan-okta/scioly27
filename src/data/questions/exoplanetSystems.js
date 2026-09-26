@@ -173,7 +173,7 @@ export const exoplanetSystemsQuestions = [
   {
     id: 'q-exo-013',
     topic: 'exoplanet-systems',
-    subtopic: 'Kepler-452b & LHS 1140 b',
+    subtopic: 'Kepler-452b: A Sun-like Habitable-Zone World',
     type: 'multiple-choice',
     difficulty: 'easy',
     question: 'Kepler-452b is notable for orbiting within the habitable zone of a star similar to which type?',
@@ -184,7 +184,7 @@ export const exoplanetSystemsQuestions = [
   {
     id: 'q-exo-014',
     topic: 'exoplanet-systems',
-    subtopic: 'Kepler-452b & LHS 1140 b',
+    subtopic: 'LHS 1140 b: A Quiet Red Dwarf World',
     type: 'multiple-choice',
     difficulty: 'medium',
     question: 'LHS 1140 b is considered a particularly promising target for atmospheric characterization because:',
@@ -200,7 +200,7 @@ export const exoplanetSystemsQuestions = [
   {
     id: 'q-exo-015',
     topic: 'exoplanet-systems',
-    subtopic: 'Kepler-452b & LHS 1140 b',
+    subtopic: 'Kepler-452b: A Sun-like Habitable-Zone World',
     type: 'multiple-choice',
     difficulty: 'hard',
     question: 'A key source of uncertainty in classifying planets like Kepler-452b, with a radius around 1.6 times Earth\'s, is that:',

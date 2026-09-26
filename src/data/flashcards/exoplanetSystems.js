@@ -86,14 +86,14 @@ export const exoplanetSystemsCards = [
   {
     id: 'fc-exo-014',
     topic: 'exoplanet-systems',
-    subtopic: 'Kepler-452b & LHS 1140 b',
+    subtopic: 'Kepler-452b',
     front: 'What makes Kepler-452b notable, and what uncertainty surrounds its classification?',
     back: "It orbits a Sun-like star in the habitable zone with a near-Earth-length year (~385 days), but at about 1.6 Earth radii, it's unclear whether it's a rocky super-Earth or a gas-rich sub-Neptune.",
   },
   {
     id: 'fc-exo-015',
     topic: 'exoplanet-systems',
-    subtopic: 'Kepler-452b & LHS 1140 b',
+    subtopic: 'LHS 1140 b',
     front: 'Why is LHS 1140 b considered a good exoplanet for atmospheric study?',
     back: 'Its host red dwarf is unusually quiet (low flare activity) compared to stars like Proxima Centauri, making the planet more likely to have retained an atmosphere.',
   },
@@ -110,5 +110,26 @@ export const exoplanetSystemsCards = [
     subtopic: 'Detection Methods',
     front: 'What do you get by combining transit and radial velocity data for the same planet?',
     back: 'Bulk density, since transit gives radius and RV gives mass — together these reveal likely composition (rocky vs. gas-rich).',
+  },
+  {
+    id: 'fc-exo-018',
+    topic: 'exoplanet-systems',
+    subtopic: 'Detection Methods',
+    front: 'What was 51 Pegasi b and why was it significant?',
+    back: "The first exoplanet confirmed around a Sun-like star (1995, via radial velocity) — a 'hot Jupiter' with a 4.2-day orbit that overturned assumptions based on our own solar system's layout.",
+  },
+  {
+    id: 'fc-exo-019',
+    topic: 'exoplanet-systems',
+    subtopic: 'Detection Methods',
+    front: 'What made the Kepler mission (2009–2018) significant for exoplanet detection?',
+    back: 'It continuously monitored over 150,000 stars using the transit method, making transits the leading exoplanet discovery technique and finding thousands of candidates.',
+  },
+  {
+    id: 'fc-exo-020',
+    topic: 'exoplanet-systems',
+    subtopic: 'Detection Methods',
+    front: 'What is the HR 8799 system notable for?',
+    back: 'One of the first multi-planet systems ever directly imaged (2008) — four large, young, widely separated planets photographed directly rather than detected indirectly.',
   },
 ]

@@ -7,6 +7,7 @@ import { subjects } from '../../data/subjects'
 const navLinks = [
   { to: '/', label: 'Dashboard', icon: '📊' },
   { to: '/study', label: 'Study Guide', icon: '📖' },
+  { to: '/rules', label: 'Rules', icon: '📋' },
   { to: '/flashcards', label: 'Flashcards', icon: '🃏' },
   { to: '/glossary', label: 'Glossary', icon: '📚' },
   { to: '/practice', label: 'Practice', icon: '✏️' },

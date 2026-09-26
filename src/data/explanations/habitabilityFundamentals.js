@@ -211,10 +211,37 @@ export const habitabilityFundamentalsExplanations = [
           'Protein denaturation (e.g., cooking an egg) illustrates a thermal ceiling on carbon-based, protein-dependent life.',
         ],
       },
+      {
+        heading: 'Extremophiles: how far can known biochemistry stretch?',
+        content:
+          "Extremophiles are organisms that thrive in conditions that would kill most known life, and they define the practical outer boundary of what astrobiologists consider a 'habitable' environment. On the thermal axis, thermophiles have been found surviving near hydrothermal vents at temperatures up to about 122°C, while psychrophiles remain metabolically active in briny ice pockets down to roughly -25°C. On the chemical axis, acidophiles tolerate pH near 0, alkaliphiles tolerate pH near 13, and halophiles thrive in water about ten times saltier than seawater.\n\nExtremophiles matter for Science Olympiad-relevant habitability questions because they show that 'Earth-like' conditions are not a strict requirement for life as we know it — only that some combination of liquid solvent, CHNOPS elements, and an energy source must be present. This is part of why environments once dismissed as obviously uninhabitable, such as Europa's dark, sunless ocean floor or Venus's acidic cloud deck, remain active targets of astrobiological interest rather than being ruled out outright.",
+        keyPoints: [
+          'Thermophiles survive up to ~122°C; psychrophiles remain active down to ~-25°C.',
+          'Acidophiles tolerate pH ~0; alkaliphiles tolerate pH ~13; halophiles thrive in water ~10x saltier than seawater.',
+          "Extremophiles widen the plausible range of 'habitable' conditions beyond strictly Earth-like temperature and chemistry.",
+        ],
+      },
     ],
     khanAcademyLinks: [],
+    furtherReading: [
+      {
+        title: '30.1 The Cosmic Context for Life',
+        source: 'OpenStax Astronomy 2e',
+        url: 'https://openstax.org/books/astronomy-2e/pages/30-1-the-cosmic-context-for-life',
+      },
+      {
+        title: '30.2 Astrobiology',
+        source: 'OpenStax Astronomy 2e',
+        url: 'https://openstax.org/books/astronomy-2e/pages/30-2-astrobiology',
+      },
+    ],
     workedExamples: [],
     commonMisconceptions: [
+      {
+        misconception: 'Extremophiles prove that life can exist anywhere, under any conditions.',
+        reality:
+          "Extremophiles push the known boundaries of temperature, pH, and salinity much further than 'ordinary' Earth life, but they still require liquid solvent, CHNOPS elements, and a usable energy source — they do not show that life can exist without any environmental requirements at all.",
+      },
       {
         misconception: 'Any element that can form four bonds, like silicon, could support life just as complex as carbon-based life.',
         reality:

@@ -125,4 +125,25 @@ export const habitabilityFundamentalsCards = [
     front: 'What is the Fermi Paradox?',
     back: 'The contradiction between high estimates for the likelihood of intelligent life and the total absence of observed evidence for it — "Where is everybody?"',
   },
+  {
+    id: 'fc-hf-021',
+    topic: 'habitability-fundamentals',
+    subtopic: 'CHNOPS & Biochemistry',
+    front: 'What is an extremophile?',
+    back: 'An organism adapted to thrive in physical or chemical conditions (extreme heat, cold, pH, or salinity) that would be lethal to most known life.',
+  },
+  {
+    id: 'fc-hf-022',
+    topic: 'habitability-fundamentals',
+    subtopic: 'CHNOPS & Biochemistry',
+    front: 'What temperature range do thermophiles and psychrophiles bracket?',
+    back: 'Thermophiles survive up to about 122°C; psychrophiles remain active down to about -25°C.',
+  },
+  {
+    id: 'fc-hf-023',
+    topic: 'habitability-fundamentals',
+    subtopic: 'CHNOPS & Biochemistry',
+    front: 'What pH extremes do acidophiles and alkaliphiles tolerate?',
+    back: 'Acidophiles tolerate pH near 0; alkaliphiles tolerate pH near 13.',
+  },
 ]

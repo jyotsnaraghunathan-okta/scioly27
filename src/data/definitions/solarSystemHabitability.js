@@ -63,7 +63,7 @@ export const solarSystemHabitabilityDefinitions = [
       "Gravity and magnetic field data from the Galileo mission provided strong evidence for a global subsurface ocean beneath Europa's icy crust.",
     relatedTerms: ['tidal heating', 'ice shell', 'Europa', 'Enceladus'],
     topic: 'solar-system-habitability',
-    subtopic: 'Europa & Enceladus',
+    subtopic: 'Europa',
   },
   {
     id: 'def-ssh-007',
@@ -74,7 +74,7 @@ export const solarSystemHabitabilityDefinitions = [
       "Cassini flew directly through Enceladus's plumes and detected water vapor, salts, and organic molecules, including hydrogen gas suggestive of hydrothermal activity on the ocean floor.",
     relatedTerms: ['tiger stripes', 'Cassini', 'hydrothermal vents'],
     topic: 'solar-system-habitability',
-    subtopic: 'Europa & Enceladus',
+    subtopic: 'Enceladus',
   },
   {
     id: 'def-ssh-008',
@@ -85,7 +85,7 @@ export const solarSystemHabitabilityDefinitions = [
       "Detection of molecular hydrogen in Enceladus's plumes by Cassini is consistent with ongoing hydrothermal reactions between water and rock on its seafloor, similar to vent systems that support life on Earth's ocean floor.",
     relatedTerms: ['Enceladus plumes', 'chemosynthesis', 'subsurface ocean'],
     topic: 'solar-system-habitability',
-    subtopic: 'Europa & Enceladus',
+    subtopic: 'Enceladus',
   },
   {
     id: 'def-ssh-009',
@@ -196,5 +196,49 @@ export const solarSystemHabitabilityDefinitions = [
     relatedTerms: ['radar imaging', 'greenhouse effect', 'Magellan mission'],
     topic: 'solar-system-habitability',
     subtopic: 'Venus Habitability',
+  },
+  {
+    id: 'def-ssh-019',
+    term: '101955 Bennu',
+    definition:
+      "A small, dark, carbon-rich (carbonaceous) near-Earth asteroid, sampled by NASA's OSIRIS-REx mission, whose returned material contains hydrated minerals and organic molecules relevant to how water and prebiotic chemistry may have reached the early Earth.",
+    example:
+      "OSIRIS-REx returned a surface sample from Bennu to Earth in September 2023, giving scientists pristine, uncontaminated material impossible to obtain from meteorites that survive atmospheric entry on their own.",
+    relatedTerms: ['OSIRIS-REx', 'sample return', 'carbonaceous asteroid'],
+    topic: 'solar-system-habitability',
+    subtopic: 'Bennu',
+  },
+  {
+    id: 'def-ssh-020',
+    term: "Bennu's Hydrated Minerals & Organics",
+    definition:
+      "Clay minerals that form only in the presence of liquid water, along with amino acids and other organic molecules, found in the OSIRIS-REx sample returned from Bennu — evidence supporting the idea that small, carbon-rich bodies could deliver water and prebiotic building blocks to young rocky planets.",
+    example:
+      "The diversity of organic molecules found in Bennu's returned sample supports the hypothesis that asteroid impacts could have supplied some of the raw ingredients for life on early Earth.",
+    relatedTerms: ['prebiotic chemistry', 'hydrated minerals', 'delivery of water/organics'],
+    topic: 'solar-system-habitability',
+    subtopic: 'Bennu',
+  },
+  {
+    id: 'def-ssh-021',
+    term: '67P/Churyumov–Gerasimenko',
+    definition:
+      "A Jupiter-family comet studied for roughly two years (2014-2016) by ESA's Rosetta orbiter, which deployed the Philae lander for the first-ever landing on a comet's surface, providing an unusually detailed, extended look at cometary composition and activity.",
+    example:
+      "Rosetta's extended mission at 67P allowed scientists to observe how the comet's activity changed as it approached and receded from the Sun, rather than capturing only a single flyby snapshot.",
+    relatedTerms: ['Rosetta', 'Philae lander', 'Jupiter-family comet'],
+    topic: 'solar-system-habitability',
+    subtopic: '67P/Churyumov–Gerasimenko',
+  },
+  {
+    id: 'def-ssh-022',
+    term: "67P's D/H Ratio & Prebiotic Chemistry",
+    definition:
+      "Rosetta measured 67P's water deuterium-to-hydrogen (D/H) ratio at roughly three times Earth ocean water's ratio, arguing against Jupiter-family comets as a class being the dominant source of Earth's water, while also detecting glycine (an amino acid) and phosphorus, supporting a role for comets in delivering prebiotic building blocks.",
+    example:
+      "Because 67P's D/H ratio mismatches Earth's so significantly, this result shifted some scientific attention toward other candidate sources (such as water-rich asteroids) for the origin of Earth's oceans.",
+    relatedTerms: ['D/H ratio', 'glycine', 'delivery of water/organics'],
+    topic: 'solar-system-habitability',
+    subtopic: '67P/Churyumov–Gerasimenko',
   },
 ]

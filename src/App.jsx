@@ -4,6 +4,7 @@ import RequireAuth from './components/auth/RequireAuth'
 import OktaCallback from './components/auth/OktaCallback'
 import Dashboard from './pages/Dashboard'
 import StudyGuide from './pages/StudyGuide'
+import Rules from './pages/Rules'
 import Flashcards from './pages/Flashcards'
 import Definitions from './pages/Definitions'
 import Practice from './pages/Practice'
@@ -34,6 +35,7 @@ export default function App() {
       <Route element={<ProtectedLayout />}>
         <Route path="/" element={<Dashboard />} />
         <Route path="/study/:topicId?/:subtopicId?" element={<StudyGuide />} />
+        <Route path="/rules" element={<Rules />} />
         <Route path="/flashcards/:topicId?" element={<Flashcards />} />
         <Route path="/glossary" element={<Definitions />} />
         <Route path="/practice/:topicId?" element={<Practice />} />

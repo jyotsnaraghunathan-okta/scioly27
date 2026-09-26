@@ -17,6 +17,7 @@ dist-ssr
 
 # Third-party competition test PDFs (reference material, not for redistribution)
 /SolarSystem/
+Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf
 
 # Editor directories and files
 .vscode/*

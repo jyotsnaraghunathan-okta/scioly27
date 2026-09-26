@@ -118,4 +118,25 @@ export const biosignaturesDetectionCards = [
     front: "How did Rosetta change scientists' understanding of comet coma formation at 67P?",
     back: 'It showed coma formation is more complex than simple sublimation, also involving subsurface trapped volatile gas released as the comet\'s ice structure changes.',
   },
+  {
+    id: 'fc-bio-018',
+    topic: 'biosignatures-detection',
+    subtopic: 'Technosignatures',
+    front: 'What was Project Ozma?',
+    back: 'The first modern radio SETI search (1960, Frank Drake), scanning ~7,200 channels around two nearby stars for ~200 hours with no detection.',
+  },
+  {
+    id: 'fc-bio-019',
+    topic: 'biosignatures-detection',
+    subtopic: 'Technosignatures',
+    front: 'What is the "cosmic haystack problem"?',
+    back: 'The challenge that a genuine SETI signal must be matched across many unknown parameters at once (direction, frequency, strength, drift, encoding), so searched space so far is tiny compared to all possibilities.',
+  },
+  {
+    id: 'fc-bio-020',
+    topic: 'biosignatures-detection',
+    subtopic: 'Technosignatures',
+    front: 'Why does SETI favor radio searches over sending physical probes?',
+    back: 'Radio waves travel at light speed and are cheap to produce, while interstellar travel is astronomically expensive — a probe near light speed would cost energy comparable to centuries of U.S. electricity consumption.',
+  },
 ]

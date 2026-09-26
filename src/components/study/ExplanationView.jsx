@@ -184,6 +184,34 @@ export default function ExplanationView({ topic, explanation }) {
           </div>
         )}
 
+        {/* Further Reading (textbook references) */}
+        {explanation.furtherReading?.length > 0 && (
+          <div className="bg-white rounded-lg border border-blue-200 p-5">
+            <h3 className="font-semibold text-blue-800 mb-1 text-lg">📖 Further Reading</h3>
+            <p className="text-xs text-blue-600 mb-4">Textbook sections to read for deeper background on this subtopic.</p>
+            <div className="space-y-2">
+              {explanation.furtherReading.map((link, i) => (
+                <a
+                  key={i}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 p-3 rounded-lg border border-blue-100 hover:bg-blue-50 transition-colors no-underline group"
+                >
+                  <span className="text-lg mt-0.5 flex-shrink-0">📘</span>
+                  <div>
+                    <p className="text-sm font-medium text-blue-900 group-hover:underline">{link.title}</p>
+                    {link.source && (
+                      <p className="text-xs text-blue-600 mt-0.5">{link.source}</p>
+                    )}
+                  </div>
+                  <span className="ml-auto text-blue-400 text-xs self-center flex-shrink-0">↗</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Khan Academy Resources */}
         {explanation.khanAcademyLinks?.length > 0 && (
           <div className="bg-white rounded-lg border border-green-200 p-5">

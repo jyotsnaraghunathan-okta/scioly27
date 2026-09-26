@@ -56,7 +56,25 @@ export const exoplanetSystemsFR = [
   {
     id: 'fr-exo-004',
     topic: 'exoplanet-systems',
-    subtopic: 'Kepler-452b & LHS 1140 b',
+    subtopic: 'Kepler-452b: A Sun-like Habitable-Zone World',
+    type: 'free-response',
+    difficulty: 'medium',
+    points: 5,
+    question:
+      'Compare Kepler-452b and LHS 1140 b in terms of their host stars and what these differences imply for habitability assessments.',
+    modelAnswer:
+      "Kepler-452b orbits a G-type, Sun-like star at a distance giving it an orbital period of about 385 days, very close to Earth's own year length, which is part of why it earned the nickname \"Earth's cousin\" after its discovery in 2015. Because its host star is Sun-like, it does not face the flare-activity concerns associated with red dwarf systems, but at roughly 1.6 Earth radii, its bulk composition (rocky super-Earth vs. gas-enveloped sub-Neptune) remains uncertain without a confident mass measurement. LHS 1140 b, by contrast, orbits a red dwarf star about 41 light-years away, discovered in 2017 using both the transit and radial velocity methods. While red dwarf systems in general raise concerns about atmosphere-stripping stellar flares (as seen with Proxima Centauri b), LHS 1140 is notably quieter and less flare-prone than many other red dwarfs, making LHS 1140 b a comparatively promising target for retaining an atmosphere despite orbiting a smaller, cooler star. Together, these two systems illustrate two different habitability considerations: for a Sun-like star like Kepler-452b's host, the open question is mainly about the planet's bulk composition, while for a red dwarf host like LHS 1140, the open question is mainly about whether the planet could have retained an atmosphere in the face of stellar activity — and LHS 1140's unusual quiet favors a positive answer more than most red dwarf systems would.",
+    keyPoints: [
+      "Kepler-452b orbits a Sun-like (G-type) star with an Earth-like ~385-day orbital period",
+      "Kepler-452b's ~1.6 Earth radii leaves its bulk composition (rocky vs. sub-Neptune) uncertain",
+      'LHS 1140 b orbits a red dwarf but one that is unusually quiet (low flare activity)',
+      "Quieter red dwarfs like LHS 1140 make their habitable-zone planets more promising for retaining atmospheres than active ones like Proxima Centauri",
+    ],
+  },
+  {
+    id: 'fr-exo-004b',
+    topic: 'exoplanet-systems',
+    subtopic: 'LHS 1140 b: A Quiet Red Dwarf World',
     type: 'free-response',
     difficulty: 'medium',
     points: 5,

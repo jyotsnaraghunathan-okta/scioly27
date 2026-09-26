@@ -35,8 +35,25 @@ export const exoplanetSystemsExplanations = [
           'Directly imaging small, rocky, habitable-zone planets remains extremely challenging with current technology.',
         ],
       },
+      {
+        heading: 'A brief history: from 51 Pegasi b to the exoplanet boom',
+        content:
+          "The modern era of exoplanet science began in 1995, when Michel Mayor and Didier Queloz used the radial velocity method to confirm 51 Pegasi b, a planet with roughly Jupiter's mass orbiting a Sun-like star in just 4.2 days — far closer than Mercury orbits the Sun. This unexpected discovery of a 'hot Jupiter' showed that giant planets could migrate close to their stars, overturning assumptions based purely on our own solar system's layout, and the radial velocity method remained the leading detection technique for the next decade because it more easily finds massive, close-in planets (a selection effect).\n\nThe transit method took over as the dominant discovery technique after NASA's Kepler space telescope operated from 2009 to 2018, continuously monitoring the brightness of over 150,000 stars and identifying thousands of exoplanet candidates, including many of the small, rocky, habitable-zone worlds now studied by JWST. Direct imaging, though still limited to large, young, widely separated planets, had one of its earliest successes in 2008 with the imaging of four planets around the star HR 8799, among the first exoplanetary systems ever directly photographed.",
+        keyPoints: [
+          "51 Pegasi b (1995): first exoplanet confirmed around a Sun-like star, a 'hot Jupiter' with a 4.2-day orbit, found via radial velocity.",
+          'Kepler (2009–2018) made the transit method the leading discovery technique by monitoring 150,000+ stars continuously.',
+          'HR 8799 (2008): one of the earliest directly imaged multi-planet systems, showing four planets around a single star.',
+        ],
+      },
     ],
     khanAcademyLinks: [],
+    furtherReading: [
+      {
+        title: '21.4 Planets beyond the Solar System: Search and Discovery',
+        source: 'OpenStax Astronomy 2e',
+        url: 'https://openstax.org/books/astronomy-2e/pages/21-4-planets-beyond-the-solar-system-search-and-discovery',
+      },
+    ],
     workedExamples: [
       {
         title: 'Estimating transit depth',
@@ -138,29 +155,27 @@ export const exoplanetSystemsExplanations = [
     ],
   },
   {
-    id: 'exp-exo-kepler452-lhs1140',
+    id: 'exp-exo-kepler452',
     topic: 'exoplanet-systems',
-    subtopic: 'kepler452-lhs1140',
-    title: 'Kepler-452b and LHS 1140 b',
+    subtopic: 'kepler-452',
+    title: "Kepler-452b: 'Earth's Cousin'",
     sections: [
       {
-        heading: "Kepler-452b: 'Earth's cousin'",
+        heading: 'A Sun-like habitable-zone world',
         content:
-          "Kepler-452b, announced in 2015, orbits a G-type, Sun-like star at a distance and orbital period (about 385 days) remarkably close to Earth's own year, earning it a popular nickname as \"Earth's cousin.\" However, at roughly 1.6 times Earth's radius, Kepler-452b sits near the boundary between rocky super-Earths and gas-enveloped sub-Neptunes. Because only its radius (from the transit method) is well constrained, and a confident mass measurement has been difficult to obtain for this relatively faint, distant star system, its true bulk composition — and therefore whether it is genuinely rocky and potentially habitable — remains an open question rather than a confirmed fact.",
+          "Kepler-452b, announced in 2015, orbits a G-type, Sun-like star at a distance and orbital period (about 385 days) remarkably close to Earth's own year, earning it a popular nickname as \"Earth's cousin.\" However, at roughly 1.6 times Earth's radius, Kepler-452b sits near the boundary between rocky super-Earths and gas-enveloped sub-Neptunes.",
         keyPoints: [
           "Kepler-452b orbits a Sun-like (G-type) star with a ~385-day period, close to Earth's year length.",
           "At ~1.6 Earth radii, it sits near the boundary between rocky super-Earths and gas-rich sub-Neptunes.",
-          'Its true composition remains uncertain without a confident mass measurement.',
         ],
       },
       {
-        heading: 'LHS 1140 b: a quieter red dwarf habitable-zone world',
+        heading: 'An unresolved composition',
         content:
-          "LHS 1140 b, discovered in 2017 via both the transit and radial velocity methods, is a rocky super-Earth orbiting within the habitable zone of LHS 1140, a red dwarf star about 41 light-years away. What makes this system especially valuable for habitability research is that LHS 1140 is unusually quiet for a red dwarf, showing much less flare activity than more famous nearby red dwarfs like Proxima Centauri. Because intense stellar flares are a major threat to a close-in planet's ability to retain an atmosphere, LHS 1140 b's calmer host star makes it a higher-priority target for atmospheric characterization attempts with observatories like JWST, since any detected atmosphere is less likely to have been recently stripped away by stellar activity.",
+          "Because only its radius (from the transit method) is well constrained, and a confident mass measurement has been difficult to obtain for this relatively faint, distant star system, Kepler-452b's true bulk composition — and therefore whether it is genuinely rocky and potentially habitable — remains an open question rather than a confirmed fact.",
         keyPoints: [
-          'LHS 1140 b is a rocky super-Earth in the habitable zone of a red dwarf about 41 light-years away.',
-          'Discovered via combined transit and radial velocity methods in 2017.',
-          "Its host star's unusually low flare activity makes it a high-priority JWST atmospheric characterization target.",
+          'Its true composition remains uncertain without a confident mass measurement.',
+          'A rocky composition would need to be confirmed via density, calculated from a combined mass + radius measurement.',
         ],
       },
     ],
@@ -172,6 +187,36 @@ export const exoplanetSystemsExplanations = [
         reality:
           "Its radius (~1.6 Earth radii) is large enough that it could plausibly be either a rocky super-Earth or a gas-enveloped sub-Neptune; without a confident mass measurement, its true composition is still uncertain.",
       },
+    ],
+  },
+  {
+    id: 'exp-exo-lhs1140',
+    topic: 'exoplanet-systems',
+    subtopic: 'lhs-1140',
+    title: 'LHS 1140 b: A Quiet Red Dwarf World',
+    sections: [
+      {
+        heading: 'A rocky super-Earth in the habitable zone',
+        content:
+          "LHS 1140 b, discovered in 2017 via both the transit and radial velocity methods, is a rocky super-Earth orbiting within the habitable zone of LHS 1140, a red dwarf star about 41 light-years away.",
+        keyPoints: [
+          'LHS 1140 b is a rocky super-Earth in the habitable zone of a red dwarf about 41 light-years away.',
+          'Discovered via combined transit and radial velocity methods in 2017.',
+        ],
+      },
+      {
+        heading: 'Why a quiet host star matters',
+        content:
+          "What makes this system especially valuable for habitability research is that LHS 1140 is unusually quiet for a red dwarf, showing much less flare activity than more famous nearby red dwarfs like Proxima Centauri. Because intense stellar flares are a major threat to a close-in planet's ability to retain an atmosphere, LHS 1140 b's calmer host star makes it a higher-priority target for atmospheric characterization attempts with observatories like JWST, since any detected atmosphere is less likely to have been recently stripped away by stellar activity.",
+        keyPoints: [
+          "Its host star's unusually low flare activity makes it a high-priority JWST atmospheric characterization target.",
+          'Red dwarf activity varies significantly between stars; LHS 1140 is notably quieter than Proxima Centauri.',
+        ],
+      },
+    ],
+    khanAcademyLinks: [],
+    workedExamples: [],
+    commonMisconceptions: [
       {
         misconception: 'All red dwarf habitable-zone planets face the same flare-driven habitability risk as Proxima Centauri b.',
         reality:

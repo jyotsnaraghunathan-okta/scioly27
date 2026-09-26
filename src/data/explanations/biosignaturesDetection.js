@@ -104,10 +104,42 @@ export const biosignaturesDetectionExplanations = [
           'No confirmed Dyson sphere or megastructure technosignature has been found to date; candidates examined so far have natural explanations.',
         ],
       },
+      {
+        heading: 'The history and scale of radio SETI',
+        content:
+          "Modern radio SETI began with Project Ozma in 1960, when Frank Drake used a radio telescope to scan about 7,200 channels around two nearby Sun-like stars, Tau Ceti and Epsilon Eridani, for roughly 200 hours. It found no signal, but it proved that a systematic radio search was technically feasible, and it inspired decades of larger follow-up surveys using instruments like the Green Bank Telescope, the Allen Telescope Array, and China's FAST dish.\n\nA key reason radio (rather than physical travel) dominates the search is cost and speed: radio waves travel at the speed of light and are cheap to produce, while physical interstellar travel is enormously expensive — engineer Bernard Oliver calculated that even a perfectly efficient engine sending a probe at 70% of the speed of light would require energy comparable to several hundred thousand years of total U.S. electricity consumption. This is also why humanity's only interstellar 'messages' so far have been symbolic rather than a serious communication attempt: the Pioneer 10/11 plaques and the Voyager Golden Records, gold-coated disks carrying photographs, sounds, and greetings in dozens of languages, were described by their creators as being like a note in a bottle tossed into the sea.\n\nModern efforts have scaled up dramatically. Breakthrough Listen, a $100 million initiative launched in 2015, uses major radio and optical telescopes worldwide along with modern signal-processing and machine-learning techniques to search far more stars and channels than any earlier program, including expansion into optical SETI (searching for brief, extremely bright laser pulses) and infrared searches for waste heat from hypothetical megastructures.",
+        keyPoints: [
+          'Project Ozma (1960) was the first modern radio SETI search: ~7,200 channels, 2 stars, ~200 hours, no detection.',
+          'Radio signals are far cheaper and faster than physical interstellar travel, which is why SETI favors listening over sending probes.',
+          'Breakthrough Listen (2015, $100 million) massively expanded the scale of radio and optical SETI searches.',
+        ],
+      },
+      {
+        heading: 'The cosmic haystack problem',
+        content:
+          "Even with modern telescopes, SETI faces what is often called the cosmic haystack problem: a genuine signal must be correctly matched across many unknown parameters at once — which direction to look, which frequency channel to tune to, how strong the signal is, whether its frequency drifts over time, and how it might be encoded. Because the space of all possible combinations of these parameters is astronomically large compared to what has actually been searched, decades of null results from Project Ozma through Breakthrough Listen represent only a small sample of the full haystack, not strong evidence against the existence of extraterrestrial technology.",
+        keyPoints: [
+          'The cosmic haystack problem: signals must be matched simultaneously across direction, frequency, strength, drift, and encoding.',
+          'Only a small fraction of the full search space has ever been examined, even by large modern surveys.',
+          'A lack of detection so far is not strong evidence that technosignatures do not exist.',
+        ],
+      },
     ],
     khanAcademyLinks: [],
+    furtherReading: [
+      {
+        title: '30.4 The Search for Extraterrestrial Intelligence',
+        source: 'OpenStax Astronomy 2e',
+        url: 'https://openstax.org/books/astronomy-2e/pages/30-4-the-search-for-extraterrestrial-intelligence',
+      },
+    ],
     workedExamples: [],
     commonMisconceptions: [
+      {
+        misconception: 'Decades of SETI searches finding nothing is strong evidence that no extraterrestrial technology exists.',
+        reality:
+          "The 'cosmic haystack problem' means that even large modern surveys have only sampled a tiny fraction of all possible signal directions, frequencies, and encodings — a null result reflects the limits of the search so far, not proof of absence.",
+      },
       {
         misconception: 'Every biosignature search is also a search for intelligent life.',
         reality:

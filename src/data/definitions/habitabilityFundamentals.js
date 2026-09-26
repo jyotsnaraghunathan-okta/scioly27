@@ -176,6 +176,39 @@ export const habitabilityFundamentalsDefinitions = [
     subtopic: 'CHNOPS & Biochemistry',
   },
   {
+    id: 'def-hf-021',
+    term: 'Extremophile',
+    definition:
+      'An organism adapted to thrive in physical or chemical conditions that would be lethal to most life, such as extreme temperature, pH, salinity, or pressure. Extremophiles on Earth expand scientists\' sense of what environments might be habitable elsewhere.',
+    example:
+      'Microbes found in Yellowstone hot springs, Antarctic ice, and deep-sea hydrothermal vents are all extremophiles, and their existence motivates searching for life in seemingly hostile places like Europa\'s ocean or Martian brines.',
+    relatedTerms: ['thermophile', 'habitability requirements', 'subsurface ocean'],
+    topic: 'habitability-fundamentals',
+    subtopic: 'CHNOPS & Biochemistry',
+  },
+  {
+    id: 'def-hf-022',
+    term: 'Thermophiles and Psychrophiles',
+    definition:
+      'Thermophiles are extremophiles adapted to very high temperatures, with some Earth organisms surviving in hydrothermal environments up to about 122°C; psychrophiles are adapted to the opposite extreme, remaining metabolically active at temperatures as low as about -25°C. Together they illustrate the wide thermal range over which known biochemistry can still function.',
+    example:
+      "Hydrothermal vent thermophiles surviving near 122°C, alongside psychrophiles active in briny ice pockets near -25°C, bracket the temperature range astrobiologists use to judge whether icy moons or cold exoplanets could still host microbial life.",
+    relatedTerms: ['extremophile', 'protein denaturation', 'subsurface ocean'],
+    topic: 'habitability-fundamentals',
+    subtopic: 'CHNOPS & Biochemistry',
+  },
+  {
+    id: 'def-hf-023',
+    term: 'Acidophiles, Alkaliphiles, and Halophiles',
+    definition:
+      'Extremophiles adapted to chemical rather than thermal extremes: acidophiles tolerate pH near 0 (extremely acidic), alkaliphiles tolerate pH near 13 (extremely basic), and halophiles thrive in water roughly ten times saltier than seawater.',
+    example:
+      "The existence of acidophiles able to survive near pH 0 is one reason scientists have not entirely ruled out Venus's sulfuric acid cloud layer as a place worth investigating, despite its extreme acidity.",
+    relatedTerms: ['extremophile', 'Venus cloud habitability', 'CHNOPS'],
+    topic: 'habitability-fundamentals',
+    subtopic: 'CHNOPS & Biochemistry',
+  },
+  {
     id: 'def-hf-019',
     term: 'The Drake Equation',
     definition:

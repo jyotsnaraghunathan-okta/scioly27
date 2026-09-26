@@ -89,29 +89,29 @@ export const solarSystemHabitabilityExplanations = [
     ],
   },
   {
-    id: 'exp-ssh-europa-enceladus',
+    id: 'exp-ssh-europa',
     topic: 'solar-system-habitability',
-    subtopic: 'europa-enceladus',
-    title: 'Europa and Enceladus: Subsurface Ocean Worlds',
+    subtopic: 'europa',
+    title: 'Europa: Subsurface Ocean and Ice Shell',
     sections: [
       {
-        heading: 'Evidence for subsurface oceans',
+        heading: 'Evidence for a global subsurface ocean',
         content:
-          "Europa, one of Jupiter's Galilean moons, and Enceladus, a moon of Saturn, are both icy worlds believed to harbor global liquid water oceans beneath their frozen surfaces. For Europa, the Galileo spacecraft measured a magnetic field response consistent with a subsurface layer of electrically conductive (salty) liquid water, and Europa's fractured, relatively young icy surface further supports an active, possibly ocean-connected interior. For Enceladus, Cassini directly observed and flew through geysers of water vapor and ice erupting from fractures near its south pole, nicknamed \"tiger stripes,\" providing the most direct evidence yet of a subsurface ocean feeding surface plumes.",
+          "Europa, one of Jupiter's four Galilean moons, is an ice-covered world slightly smaller than Earth's Moon. The strongest evidence for a global subsurface ocean beneath its icy shell comes from the Galileo spacecraft's magnetometer, which measured a magnetic field response induced by Jupiter's own rotating field interacting with a layer of electrically conductive material — most plausibly a global layer of salty liquid water — beneath the ice. Europa's surface reinforces this picture: it is one of the smoothest, least-cratered surfaces in the solar system, indicating that the icy shell is geologically young and actively resurfaced rather than an ancient, static crust.",
         keyPoints: [
-          "Europa's subsurface ocean is inferred mainly from induced magnetic field and surface geology data.",
-          "Enceladus's ocean is confirmed by direct plume material sampled by Cassini.",
-          'Both oceans are kept liquid primarily by tidal heating rather than sunlight.',
+          "Galileo's induced magnetic field is the primary evidence for Europa's subsurface ocean.",
+          "Europa's smooth, lightly-cratered surface indicates active, ongoing resurfacing.",
+          'Europa is one of four Galilean moons, alongside Io, Ganymede, and Callisto.',
         ],
       },
       {
-        heading: 'Chemistry and the hydrothermal vent hypothesis',
+        heading: 'Surface features and ice shell dynamics',
         content:
-          "Cassini's analysis of Enceladus's plumes revealed not just water vapor and ice grains but also salts and organic molecules, as well as molecular hydrogen. Molecular hydrogen is a signature byproduct of chemical reactions between hot rock and water at hydrothermal vents (a process called serpentinization), which occurs on Earth's ocean floor and supports entire ecosystems of chemosynthetic organisms that don't rely on sunlight. This finding suggests Enceladus may have active hydrothermal systems at the interface between its rocky core and ocean, potentially supplying both energy and chemical building blocks needed to support microbial life, if it exists.",
+          "Long dark ridged streaks called lineae and smooth dark spots or pits called lenticulae crisscross Europa's icy shell. Both features are best explained if the shell consists of individual blocks of ice that 'raft' and shift atop a liquid layer, rather than behaving as a single rigid, unmoving crust — direct visual support for the ocean inferred from Galileo's magnetic data. This mobile ice shell also raises the possibility that surface material, including oxidants produced by radiation striking the ice, could be exchanged with the ocean below, a process astrobiologists consider important for supplying chemical energy to any subsurface biology.",
         keyPoints: [
-          "Molecular hydrogen in Enceladus's plumes suggests active hydrothermal (water-rock) chemistry.",
-          'Hydrothermal vents on Earth support chemosynthetic life independent of sunlight, offering a model for ocean-world habitability.',
-          "Europa Clipper (launched 2024, arriving 2030) will further investigate Europa's ocean chemistry and habitability.",
+          "Lineae (ridges) and lenticulae (pits/domes) suggest a shifting, 'rafting' ice shell.",
+          'Ice shell mobility could allow exchange of surface-produced chemistry with the ocean below.',
+          'Europa Clipper (launched 2024, arriving ~2030) will map ice shell thickness and search for these connections directly.',
         ],
       },
     ],
@@ -119,14 +119,56 @@ export const solarSystemHabitabilityExplanations = [
     workedExamples: [],
     commonMisconceptions: [
       {
-        misconception: 'Europa and Enceladus have been confirmed to host life.',
+        misconception: "Europa's ocean has been directly sampled and confirmed to host life.",
         reality:
-          'Both moons have strong evidence for subsurface liquid water and the chemical ingredients potentially needed for life, but no life has been detected. They are high-priority targets for future astrobiology missions, not confirmed inhabited worlds.',
+          "Europa's ocean is inferred from indirect evidence (induced magnetic field, surface geology). No life has been detected, and Europa Clipper is designed to characterize habitability, not to search directly for present-day life.",
       },
       {
-        misconception: 'These moons are warmed primarily by sunlight, like Earth.',
+        misconception: 'Europa is warmed primarily by sunlight, like Earth.',
         reality:
-          'Both moons orbit far from the Sun and receive very little sunlight. Their oceans are kept liquid mainly by tidal heating generated by gravitational interactions with their host planets and neighboring moons.',
+          "Europa orbits far from the Sun and receives very little sunlight. Its ocean is kept liquid mainly by tidal heating generated by gravitational interactions with Jupiter and neighboring moons.",
+      },
+    ],
+  },
+  {
+    id: 'exp-ssh-enceladus',
+    topic: 'solar-system-habitability',
+    subtopic: 'enceladus',
+    title: 'Enceladus: Plumes and Hydrothermal Chemistry',
+    sections: [
+      {
+        heading: "Cassini's discovery of active plumes",
+        content:
+          "Enceladus, a small icy moon of Saturn, was a surprise astrobiological target: despite its modest size (about 500 km across), Cassini discovered towering geysers of water vapor and ice grains erupting from a set of parallel fractures nicknamed 'tiger stripes' near its south pole. Unlike Europa, where the ocean is only inferred indirectly, Cassini repeatedly flew directly through Enceladus's plumes, directly sampling ocean material venting into space — among the most direct evidence anywhere in the solar system for a subsurface ocean feeding surface activity.",
+        keyPoints: [
+          'Enceladus vents plumes of water vapor and ice from south-polar \'tiger stripe\' fractures.',
+          'Cassini flew directly through the plumes, directly sampling ocean material.',
+          'This makes Enceladus one of the only ocean worlds whose interior chemistry has been sampled without landing.',
+        ],
+      },
+      {
+        heading: 'Ocean chemistry and the hydrothermal vent hypothesis',
+        content:
+          "Cassini's plume samples contained not just water vapor and ice grains but also salts, organic molecules, and molecular hydrogen. Molecular hydrogen is considered a signature byproduct of serpentinization, a chemical reaction between hot rock and water that occurs at Earth's seafloor hydrothermal vents and can supply chemical energy directly to microbial ecosystems that do not rely on sunlight. Tiny silica grains detected in Saturn's E-ring, which is fed by the plumes, further suggest these reactions occur at temperatures around 90°C or higher, consistent with active hydrothermal systems at the interface between Enceladus's rocky core and its ocean.",
+        keyPoints: [
+          'Molecular hydrogen and silica nanograins point to hydrothermal (water-rock) chemistry at ~90°C or higher.',
+          'Serpentinization on Earth supports chemosynthetic ecosystems independent of sunlight.',
+          'Enceladus is considered one of the most promising ocean worlds for astrobiology because both energy and chemical building blocks appear to be present.',
+        ],
+      },
+    ],
+    khanAcademyLinks: [],
+    workedExamples: [],
+    commonMisconceptions: [
+      {
+        misconception: 'Enceladus is too small to have any geologic activity.',
+        reality:
+          "Despite its small size (~500 km diameter), tidal heating from Saturn keeps Enceladus's interior active, driving the plumes.",
+      },
+      {
+        misconception: 'The plumes are just water vapor, so they tell us little about the ocean.',
+        reality:
+          'The plumes also carry salts, organics, and molecular hydrogen, providing direct chemical evidence about ocean composition and potential energy sources.',
       },
     ],
   },
@@ -248,6 +290,90 @@ export const solarSystemHabitabilityExplanations = [
         misconception: 'Ceres and Makemake are similar bodies just located in different places.',
         reality:
           "Ceres is a rocky/icy body in the inner asteroid belt with evidence of past cryovolcanism, while Makemake is a much colder, more ice-dominated trans-Neptunian object in the Kuiper Belt; both are dwarf planets but formed and evolved in very different environments.",
+      },
+    ],
+  },
+  {
+    id: 'exp-ssh-bennu',
+    topic: 'solar-system-habitability',
+    subtopic: 'bennu',
+    title: '101955 Bennu: A Sample-Return Window into Prebiotic Chemistry',
+    sections: [
+      {
+        heading: 'A primitive, carbon-rich asteroid',
+        content:
+          "101955 Bennu is a small, dark, carbon-rich near-Earth asteroid chosen as the target of NASA's OSIRIS-REx mission specifically because its composition appears to have been left largely unaltered since the early solar system, offering a relatively pristine window into the raw ingredients from which planets formed. In September 2023, OSIRIS-REx returned a surface sample to Earth for laboratory analysis, a technique that avoids the atmospheric heating, weathering, and terrestrial contamination that can alter or destroy delicate compounds in meteorites that fall to Earth on their own.",
+        keyPoints: [
+          'Bennu is a small, dark, carbon-rich (carbonaceous) near-Earth asteroid.',
+          'OSIRIS-REx collected and returned a surface sample to Earth in September 2023.',
+          'Sample return provides pristine, uncontaminated material that meteorites alone cannot offer.',
+        ],
+      },
+      {
+        heading: 'Habitability relevance: delivering water and organics',
+        content:
+          "Laboratory analysis of the returned Bennu material revealed hydrated minerals, clays that only form in the presence of liquid water, along with a diverse mix of organic molecules, including amino acids and other prebiotic building blocks. Because small bodies like Bennu are thought to have delivered similar water-bearing, carbon-rich material to the young Earth via impacts, Bennu's sample provides direct evidence for one proposed pathway by which the raw ingredients for life could have reached a young rocky planet, complementing indirect evidence gathered from meteorites and comets.",
+        keyPoints: [
+          "Bennu's returned sample contains hydrated minerals and diverse organic molecules, including amino acids.",
+          'Small, carbon-rich bodies like Bennu are considered plausible sources for the water and organics that helped seed early Earth.',
+          "Bennu's episodic particle-ejection events (thermal fracturing, small impacts) show it remains an active, evolving surface despite lacking tectonics or tidal heating.",
+        ],
+      },
+    ],
+    khanAcademyLinks: [],
+    workedExamples: [],
+    commonMisconceptions: [
+      {
+        misconception: "Bennu's particle ejections mean it has active volcanism.",
+        reality:
+          'Bennu is far too small for tidal heating or internal volcanism; the ejections are attributed to thermal fracturing from day-night temperature swings and small meteoroid impacts.',
+      },
+      {
+        misconception: 'A returned sample is basically the same as a meteorite found on Earth.',
+        reality:
+          'Sample return avoids the atmospheric heating, weathering, and terrestrial contamination that alter or destroy delicate organic compounds in meteorites, giving scientists access to more pristine, better-contextualized material.',
+      },
+    ],
+  },
+  {
+    id: 'exp-ssh-comet-67p',
+    topic: 'solar-system-habitability',
+    subtopic: 'comet-67p',
+    title: "67P/Churyumov–Gerasimenko: Comet Chemistry and the Origin of Earth's Water",
+    sections: [
+      {
+        heading: 'Rosetta and Philae: an extended comet visit',
+        content:
+          "67P/Churyumov–Gerasimenko is a Jupiter-family comet studied in unprecedented detail by ESA's Rosetta orbiter, which accompanied the comet for roughly two years (2014-2016) as it approached and receded from the Sun, deploying the Philae lander for the first-ever landing on a comet's surface. This extended presence, far longer than a typical flyby mission, allowed Rosetta to observe how the comet's activity changed as it warmed and to make direct chemical measurements of gas and dust escaping from the nucleus.",
+        keyPoints: [
+          'Rosetta orbited 67P for about two years, far longer than typical flyby missions.',
+          "Philae achieved the first landing on a comet's surface.",
+          'The extended mission allowed direct observation of how cometary activity changes with distance from the Sun.',
+        ],
+      },
+      {
+        heading: 'Water delivery and prebiotic chemistry',
+        content:
+          "Rosetta measured the deuterium-to-hydrogen (D/H) ratio in 67P's water and found it to be roughly three times higher than Earth's ocean water, a mismatch that argues against Jupiter-family comets, as a class, being the dominant source of Earth's oceans, since if they were, the ratios would be expected to match more closely. Separately, Rosetta detected glycine (a simple amino acid) and phosphorus, an essential CHNOPS element, in material surrounding the comet, supporting the idea that comets could still have delivered meaningful prebiotic chemical building blocks to the early Earth, even if they were not the primary source of its water.",
+        keyPoints: [
+          "67P's water D/H ratio is roughly 3x Earth ocean water's, arguing against Jupiter-family comets as Earth's main water source.",
+          'Rosetta detected glycine and phosphorus at 67P, supporting cometary delivery of prebiotic building blocks.',
+          "A D/H ratio mismatch doesn't rule out comets contributing some water/organics — just being the dominant source.",
+        ],
+      },
+    ],
+    khanAcademyLinks: [],
+    workedExamples: [],
+    commonMisconceptions: [
+      {
+        misconception: "Rosetta's D/H measurement proves comets delivered none of Earth's water.",
+        reality:
+          'It argues against Jupiter-family comets like 67P being the primary source, but does not rule out a partial contribution, or a different class of comet or asteroid instead.',
+      },
+      {
+        misconception: 'Detecting an amino acid at a comet is proof of extraterrestrial life.',
+        reality:
+          'Glycine is a common prebiotic building block that can form abiotically in space; its detection supports the delivery of raw materials for life, not life itself.',
       },
     ],
   },

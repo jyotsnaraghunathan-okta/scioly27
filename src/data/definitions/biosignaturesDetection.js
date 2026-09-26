@@ -176,6 +176,50 @@ export const biosignaturesDetectionDefinitions = [
     subtopic: 'Surface Feature Imaging & Geologic Activity',
   },
   {
+    id: 'def-bio-018',
+    term: 'Project Ozma',
+    definition:
+      "The first modern radio SETI search, conducted by Frank Drake in 1960, which used a radio telescope to scan about 7,200 channels around two nearby Sun-like stars (Tau Ceti and Epsilon Eridani) for roughly 200 hours, finding no signals but establishing radio SETI as a feasible observational technique.",
+    example:
+      "Project Ozma's null result did not disprove extraterrestrial intelligence; it simply showed that two nearby stars, searched over a small slice of frequencies and time, produced no detectable narrow-band radio signal.",
+    relatedTerms: ['radio SETI', 'Drake Equation', 'cosmic haystack problem'],
+    topic: 'biosignatures-detection',
+    subtopic: 'Technosignatures',
+  },
+  {
+    id: 'def-bio-019',
+    term: 'Cosmic Haystack Problem',
+    definition:
+      "The practical challenge facing SETI searches: any candidate signal must be correctly matched across many unknown parameters simultaneously — direction, frequency, signal strength, timing/frequency drift, and encoding — making the true search space (the 'haystack') far larger than the number of observations conducted so far.",
+    example:
+      "Even decades of SETI radio surveys have covered only a tiny fraction of the full cosmic haystack of possible directions and frequencies, which is why a lack of detection so far is not strong evidence against the existence of extraterrestrial technology.",
+    relatedTerms: ['radio SETI', 'Project Ozma', 'Breakthrough Listen'],
+    topic: 'biosignatures-detection',
+    subtopic: 'Technosignatures',
+  },
+  {
+    id: 'def-bio-020',
+    term: 'Interstellar Messages (Pioneer Plaques & Voyager Golden Record)',
+    definition:
+      "Physical messages attached to outbound spacecraft intended for any extraterrestrial civilization that might one day recover them: the Pioneer 10 and 11 plaques are gold-anodized aluminum plates with pictorial information, while the Voyager 1 and 2 Golden Records are gold-coated copper disks containing photographs, sounds, and greetings in dozens of languages.",
+    example:
+      "Because interstellar space is so vast, the Voyager Golden Records are often described as being like a note in a bottle thrown into the sea — a symbolic gesture with only a very small chance of ever being found.",
+    relatedTerms: ['technosignature', 'SETI', 'interstellar travel'],
+    topic: 'biosignatures-detection',
+    subtopic: 'Technosignatures',
+  },
+  {
+    id: 'def-bio-021',
+    term: 'Breakthrough Listen',
+    definition:
+      'A privately funded ($100 million), decade-long SETI initiative launched in 2015 that uses major radio and optical telescopes worldwide, combined with modern signal-processing and machine-learning techniques, to search far more stars and frequency channels than any prior SETI program.',
+    example:
+      "Breakthrough Listen has surveyed the million nearest stars and the plane of the Milky Way for narrow-band radio and optical laser signals, representing a major scale-up from earlier, more limited searches like Project Ozma.",
+    relatedTerms: ['radio SETI', 'optical SETI', 'cosmic haystack problem'],
+    topic: 'biosignatures-detection',
+    subtopic: 'Technosignatures',
+  },
+  {
     id: 'def-bio-017',
     term: 'Cometary Coma Formation (Rosetta Reassessment)',
     definition:

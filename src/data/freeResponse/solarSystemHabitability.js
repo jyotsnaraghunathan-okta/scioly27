@@ -38,7 +38,25 @@ export const solarSystemHabitabilityFR = [
   {
     id: 'fr-ssh-003',
     topic: 'solar-system-habitability',
-    subtopic: 'Europa & Enceladus',
+    subtopic: 'Europa: Subsurface Ocean & Ice Shell',
+    type: 'free-response',
+    difficulty: 'hard',
+    points: 6,
+    question:
+      "Compare the evidence for a subsurface ocean on Europa with the evidence for a subsurface ocean on Enceladus. Why is the discovery of molecular hydrogen in Enceladus's plumes considered particularly significant for astrobiology?",
+    modelAnswer:
+      "Evidence for Europa's subsurface ocean comes mainly from indirect measurements: the Galileo spacecraft detected an induced magnetic field around Europa consistent with a global layer of electrically conductive salty liquid water beneath the icy shell, and Europa's young, fractured surface is consistent with an active interior. By contrast, evidence for Enceladus's ocean is much more direct: the Cassini spacecraft observed geysers erupting from fractures near Enceladus's south pole and flew directly through these plumes, sampling water vapor, ice grains, salts, and organic molecules coming straight from the subsurface ocean. The detection of molecular hydrogen in Enceladus's plumes is particularly significant because molecular hydrogen is a known byproduct of hydrothermal chemical reactions between hot rock and water (serpentinization), the same kind of reaction that occurs at hydrothermal vents on Earth's ocean floor. On Earth, such vents support entire ecosystems of microorganisms that use chemosynthesis to derive energy from these chemical reactions rather than from sunlight. Finding hydrogen in Enceladus's plumes therefore suggests that active hydrothermal systems may exist at the boundary between its rocky core and its ocean, potentially supplying both the chemical energy and nutrients that life would need to survive in a completely dark, sunlight-free environment.",
+    keyPoints: [
+      "Europa's ocean evidence: induced magnetic field (Galileo) and young fractured surface (indirect)",
+      "Enceladus's ocean evidence: direct plume sampling by Cassini (more direct)",
+      'Molecular hydrogen indicates hydrothermal (water-rock) chemistry, i.e., serpentinization',
+      'Hydrothermal vents on Earth support chemosynthetic life without sunlight, providing a model for ocean-world habitability',
+    ],
+  },
+  {
+    id: 'fr-ssh-003b',
+    topic: 'solar-system-habitability',
+    subtopic: 'Enceladus: Plumes & Hydrothermal Chemistry',
     type: 'free-response',
     difficulty: 'hard',
     points: 6,
