@@ -5,6 +5,8 @@ import OktaCallback from './components/auth/OktaCallback'
 import Dashboard from './pages/Dashboard'
 import StudyGuide from './pages/StudyGuide'
 import Rules from './pages/Rules'
+import Images from './pages/Images'
+import HighlandsVirtual from './pages/HighlandsVirtual'
 import Flashcards from './pages/Flashcards'
 import Definitions from './pages/Definitions'
 import Practice from './pages/Practice'
@@ -36,6 +38,8 @@ export default function App() {
         <Route path="/" element={<Dashboard />} />
         <Route path="/study/:topicId?/:subtopicId?" element={<StudyGuide />} />
         <Route path="/rules" element={<Rules />} />
+        <Route path="/images" element={<Images />} />
+        <Route path="/highlands-virtual" element={<HighlandsVirtual />} />
         <Route path="/flashcards/:topicId?" element={<Flashcards />} />
         <Route path="/glossary" element={<Definitions />} />
         <Route path="/practice/:topicId?" element={<Practice />} />

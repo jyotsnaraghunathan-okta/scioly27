@@ -7,7 +7,7 @@ export const exoplanetSystemsQuestions = [
     difficulty: 'easy',
     question: 'The transit method detects an exoplanet by observing:',
     options: [
-      'A) A periodic dimming of starlight as the planet passes in front of the star',
+      'A) A periodic dimming of starlight during a transit',
       'B) A periodic wobble in the star\'s spectral lines',
       'C) A direct photograph of the planet',
       'D) Gravitational lensing of background light',
@@ -23,7 +23,7 @@ export const exoplanetSystemsQuestions = [
     type: 'multiple-choice',
     difficulty: 'easy',
     question: "Which detection method relies on measuring the Doppler shift of a star's spectral lines?",
-    options: ['A) Transit method', 'B) Radial velocity method', 'C) Direct imaging', 'D) Astrometry'],
+    options: ['A) Transit method', 'B) Radial velocity method', 'C) Direct imaging technique', 'D) Astrometric measurement'],
     answer: 1,
     explanation:
       "The radial velocity method detects the tiny back-and-forth motion (wobble) of a star induced by an orbiting planet's gravity, observed as a periodic redshift and blueshift in the star's spectral lines.",
@@ -50,11 +50,11 @@ export const exoplanetSystemsQuestions = [
     question: 'Direct imaging of exoplanets is most successful for planets that are:',
     options: [
       'A) Small, rocky, and orbiting close to their star',
-      'B) Large, young, hot, and orbiting far from their star',
       'C) Any planet, regardless of size or distance from its star',
+      'B) Large, young, hot, and orbiting far from their star',
       'D) Only planets that transit their star',
     ],
-    answer: 1,
+    answer: 2,
     explanation:
       'Direct imaging requires separating a faint planet from the overwhelming glare of its host star, which is easiest for large, young (still hot from formation), and widely separated planets.',
   },
@@ -67,11 +67,11 @@ export const exoplanetSystemsQuestions = [
     question: 'A "hot Jupiter" is best described as:',
     options: [
       'A) A rocky planet with a thick CO2 atmosphere',
-      'B) A gas giant planet orbiting very close to its star',
       'C) A small icy planet in a distant orbit',
       'D) A planet with an internal heat source from radioactive decay',
+      'B) A gas giant planet orbiting very close to its star',
     ],
-    answer: 1,
+    answer: 3,
     explanation:
       'Hot Jupiters are gas giant planets, comparable in mass to Jupiter, that orbit extremely close to their host stars, giving them very high atmospheric temperatures.',
   },
@@ -93,8 +93,8 @@ export const exoplanetSystemsQuestions = [
     type: 'multiple-choice',
     difficulty: 'easy',
     question: 'How many roughly Earth-sized planets orbit the star TRAPPIST-1?',
-    options: ['A) Three', 'B) Five', 'C) Seven', 'D) Nine'],
-    answer: 2,
+    options: ['C) Seven', 'A) Three', 'B) Five', 'D) Nine'],
+    answer: 0,
     explanation: 'TRAPPIST-1 hosts seven known roughly Earth-sized rocky planets, discovered using data from ground-based telescopes and the Spitzer Space Telescope.',
   },
   {
@@ -123,11 +123,11 @@ export const exoplanetSystemsQuestions = [
     question: 'What made Kepler-186f historically significant when it was announced in 2014?',
     options: [
       'A) It was the first exoplanet ever discovered',
-      'B) It was the first Earth-sized planet found within the habitable zone of another star',
       'C) It was the first planet detected using direct imaging',
+      'B) First Earth-sized planet found in another star\'s habitable zone',
       'D) It was the first exoplanet confirmed to have an atmosphere',
     ],
-    answer: 1,
+    answer: 2,
     explanation:
       'Kepler-186f, orbiting a red dwarf about 580 light-years away, was the first planet with a radius close to Earth\'s (about 1.17 Earth radii) found within a star\'s habitable zone.',
   },
@@ -138,8 +138,8 @@ export const exoplanetSystemsQuestions = [
     type: 'multiple-choice',
     difficulty: 'easy',
     question: 'Which space telescope discovered the habitable-zone planets TOI-700 d and TOI-700 e?',
-    options: ['A) Hubble', 'B) Kepler', 'C) TESS', 'D) JWST'],
-    answer: 2,
+    options: ['A) Hubble', 'B) Kepler', 'D) JWST', 'C) TESS'],
+    answer: 3,
     explanation: 'TESS (Transiting Exoplanet Survey Satellite) discovered both TOI-700 d (2020) and TOI-700 e (2023) using the transit method.',
   },
   {
@@ -149,8 +149,8 @@ export const exoplanetSystemsQuestions = [
     type: 'multiple-choice',
     difficulty: 'medium',
     question: 'Which detection method was used to discover Proxima Centauri b?',
-    options: ['A) Transit method', 'B) Radial velocity (Doppler) method', 'C) Direct imaging', 'D) Gravitational microlensing'],
-    answer: 1,
+    options: ['B) Radial velocity method', 'A) Transit brightness method', 'C) Direct imaging technique', 'D) Gravitational microlensing'],
+    answer: 0,
     explanation: 'Proxima Centauri b was discovered in 2016 via the radial velocity method, detecting the small stellar wobble caused by the planet\'s gravity.',
   },
   {
@@ -162,7 +162,7 @@ export const exoplanetSystemsQuestions = [
     question: 'A key habitability concern specific to Proxima Centauri b, distinct from most Sun-like-star planets, is:',
     options: [
       'A) It receives almost no light from its star',
-      'B) Frequent, powerful stellar flares from its red dwarf host that could erode its atmosphere',
+      'B) Frequent, powerful flares from its red dwarf that could erode its atmosphere',
       'C) It orbits too far from its star to ever receive enough energy',
       'D) It has been directly imaged showing no atmosphere at all',
     ],
@@ -177,8 +177,8 @@ export const exoplanetSystemsQuestions = [
     type: 'multiple-choice',
     difficulty: 'easy',
     question: 'Kepler-452b is notable for orbiting within the habitable zone of a star similar to which type?',
-    options: ['A) A red dwarf', 'B) A Sun-like (G-type) star', 'C) A blue giant', 'D) A neutron star'],
-    answer: 1,
+    options: ['A) A red dwarf star', 'C) A blue giant star', 'B) A Sun-like star', 'D) A neutron star'],
+    answer: 2,
     explanation: 'Kepler-452b orbits a G-type, Sun-like star, with an orbital period (~385 days) close to Earth\'s own year length.',
   },
   {
@@ -189,12 +189,12 @@ export const exoplanetSystemsQuestions = [
     difficulty: 'medium',
     question: 'LHS 1140 b is considered a particularly promising target for atmospheric characterization because:',
     options: [
-      'A) It orbits a Sun-like star',
-      'B) Its host red dwarf star is unusually quiet, with relatively low flare activity',
-      'C) It has already been directly imaged',
-      'D) It has no orbital period',
+      'A) It orbits a bright, Sun-like host star',
+      'C) It has already been directly imaged by JWST',
+      'D) It has an unusually short orbital period',
+      'B) Its host red dwarf is unusually quiet with low flares',
     ],
-    answer: 1,
+    answer: 3,
     explanation: 'LHS 1140 is a comparatively quiet red dwarf, making LHS 1140 b more likely than planets around highly active stars (like Proxima Centauri) to have retained a stable atmosphere.',
   },
   {
@@ -205,7 +205,7 @@ export const exoplanetSystemsQuestions = [
     difficulty: 'hard',
     question: 'A key source of uncertainty in classifying planets like Kepler-452b, with a radius around 1.6 times Earth\'s, is that:',
     options: [
-      'A) Radius alone cannot fully distinguish a rocky super-Earth from a gas-enveloped sub-Neptune without a mass measurement',
+      'A) Radius alone can\'t tell a rocky planet from a gas-rich one',
       'B) Such planets cannot be in the habitable zone',
       'C) They are too far away to observe with any telescope',
       'D) Their orbital period cannot be measured',
@@ -233,7 +233,7 @@ export const exoplanetSystemsQuestions = [
     question: 'Which statement about detection method biases is most accurate?',
     options: [
       'A) The radial velocity method is inherently biased toward planets far from their star',
-      'B) Both radial velocity and transit methods favor planets in close-in orbits, though for different reasons',
+      'B) Both methods favor close-in planets, for different reasons',
       'C) Direct imaging works best for small, close-in rocky planets',
       'D) The transit method can detect planets regardless of orbital plane alignment',
     ],
@@ -249,12 +249,12 @@ export const exoplanetSystemsQuestions = [
     difficulty: 'medium',
     question: 'Combining transit and radial velocity measurements of the same exoplanet allows scientists to calculate its:',
     options: [
-      'A) Distance from Earth',
+      'A) Distance from Earth to the system',
+      'C) Rotation period of the planet',
       'B) Bulk density and likely composition',
-      'C) Rotation period',
       "D) Surface gravity of its host star",
     ],
-    answer: 1,
+    answer: 2,
     explanation: 'Transit gives radius and radial velocity gives mass; together these yield bulk density, from which likely composition (rocky, gas-rich, etc.) can be inferred.',
   },
 ]

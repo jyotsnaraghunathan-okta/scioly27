@@ -7,10 +7,10 @@ export const solarSystemHabitabilityQuestions = [
     difficulty: 'easy',
     question: 'Which type of geologic feature provides evidence that liquid water once flowed on the surface of Mars?',
     options: [
-      'A) Volcanic calderas',
-      'B) Dry riverbeds and ancient river deltas',
-      'C) Impact craters',
-      'D) Polar ice caps',
+      'A) Large volcanic caldera fields',
+      'B) Dry riverbeds and ancient deltas',
+      'C) Widespread impact crater fields',
+      'D) Seasonal polar ice caps',
     ],
     answer: 1,
     explanation:
@@ -25,11 +25,11 @@ export const solarSystemHabitabilityQuestions = [
     question: "Why has Mars lost most of its atmosphere over billions of years?",
     options: [
       'A) It was blown away by a single large asteroid impact',
-      'B) Mars lacks a global magnetic field, allowing solar wind to strip the atmosphere away over time',
       'C) Mars is too small to have ever had an atmosphere',
+      'B) Mars lacks a magnetic field, so solar wind strips its atmosphere',
       'D) The atmosphere condensed permanently into the polar ice caps',
     ],
-    answer: 1,
+    answer: 2,
     explanation:
       "Without a global magnetic field to deflect the solar wind, charged particles from the Sun have gradually stripped away Mars's atmosphere, a process studied in detail by NASA's MAVEN mission.",
   },
@@ -52,12 +52,12 @@ export const solarSystemHabitabilityQuestions = [
     difficulty: 'medium',
     question: "What is the leading hypothesis for why Venus's surface today is completely dry despite likely having early water?",
     options: [
-      'A) All the water sank into the mantle',
-      'B) A runaway greenhouse effect boiled away the oceans, and hydrogen was subsequently lost to space',
-      'C) Venus never had any water to begin with',
+      'A) All its early water sank into the deep mantle',
+      'C) Venus never had any surface water to begin with',
       'D) The water froze into a permanent polar ice cap',
+      'B) A runaway greenhouse boiled away oceans, then hydrogen escaped',
     ],
-    answer: 1,
+    answer: 3,
     explanation:
       "Rising temperatures likely triggered a runaway greenhouse effect that vaporized any surface water; once in the upper atmosphere, water molecules were broken apart by UV radiation and hydrogen escaped to space, permanently drying the planet.",
   },
@@ -69,12 +69,12 @@ export const solarSystemHabitabilityQuestions = [
     difficulty: 'hard',
     question: 'The hypothesis that microbial life could exist in the Venusian cloud layer is motivated primarily by which observation?',
     options: [
+      'B) More moderate temperature and pressure in the cloud layer',
       'A) Direct imaging of organisms in the clouds',
-      'B) More moderate temperature and pressure conditions in the cloud layer (~48-60 km altitude) than at the surface',
       'C) The discovery of liquid water pools at the cloud layer altitude',
       'D) A confirmed detection of DNA in Venus\'s atmosphere',
     ],
-    answer: 1,
+    answer: 0,
     explanation:
       "The cloud-layer habitability hypothesis is based on the fact that temperature and pressure in Venus's atmosphere at roughly 48-60 km altitude are more Earth-like than the crushing, scorching surface, even though the clouds themselves are highly acidic sulfuric acid droplets.",
   },
@@ -87,7 +87,7 @@ export const solarSystemHabitabilityQuestions = [
     question: "What is the primary evidence that Europa has a subsurface liquid ocean beneath its icy crust?",
     options: [
       'A) Direct visual images of open water on the surface',
-      'B) Gravity and magnetic field measurements consistent with a global conductive liquid layer',
+      'B) Gravity and magnetic field data matching a global liquid layer',
       'C) Sample return of ocean water to Earth',
       'D) Direct measurement of surface temperature above 0°C',
     ],
@@ -103,12 +103,12 @@ export const solarSystemHabitabilityQuestions = [
     difficulty: 'medium',
     question: 'What did the Cassini spacecraft detect by flying directly through plumes erupting from Enceladus?',
     options: [
-      'A) Pure liquid nitrogen',
-      'B) Water vapor, ice grains, salts, and molecular hydrogen',
-      'C) Solid methane crystals only',
-      'D) Nothing; the plumes were found to be optical illusions',
+      'A) Pure liquid nitrogen only',
+      'C) Solid frozen methane crystals only',
+      'B) Water vapor, ice grains, salts, and hydrogen',
+      'D) Nothing; the plumes are optical illusions',
     ],
-    answer: 1,
+    answer: 2,
     explanation:
       "Cassini's instruments detected water vapor, ice particles, salts, organic molecules, and molecular hydrogen in Enceladus's plumes, with the hydrogen suggesting active hydrothermal chemistry at the seafloor.",
   },
@@ -132,12 +132,12 @@ export const solarSystemHabitabilityQuestions = [
     difficulty: 'easy',
     question: "What liquid fills Titan's lakes and seas, such as Kraken Mare?",
     options: [
-      'A) Liquid water',
+      'A) Liquid water alone',
+      'C) Liquid ammonia solution',
+      'D) Molten elemental sulfur',
       'B) Liquid methane and ethane',
-      'C) Liquid ammonia',
-      'D) Molten sulfur',
     ],
-    answer: 1,
+    answer: 3,
     explanation:
       "Titan's surface temperature is far too cold for liquid water, but methane and ethane remain liquid there, filling lakes and seas such as Kraken Mare, mapped by the Cassini-Huygens mission.",
   },
@@ -148,8 +148,8 @@ export const solarSystemHabitabilityQuestions = [
     type: 'multiple-choice',
     difficulty: 'medium',
     question: 'Which upcoming NASA mission is a rotorcraft designed to fly to multiple sites on Titan and study its organic chemistry?',
-    options: ['A) Europa Clipper', 'B) Dragonfly', 'C) VERITAS', 'D) DAVINCI'],
-    answer: 1,
+    options: ['B) Dragonfly', 'A) Europa Clipper', 'C) VERITAS', 'D) DAVINCI'],
+    answer: 0,
     explanation:
       "Dragonfly is a nuclear-powered rotorcraft lander, part of NASA's New Frontiers program, planned to launch no earlier than 2028 and fly between multiple sites on Titan.",
   },
@@ -162,7 +162,7 @@ export const solarSystemHabitabilityQuestions = [
     question: "The bright salt deposits found in Ceres's Occator Crater by the Dawn mission are best explained by:",
     options: [
       'A) Ancient asteroid impacts depositing salt from space',
-      'B) Cryovolcanic eruption of briny water from a subsurface reservoir',
+      'B) Cryovolcanic eruption of briny subsurface water',
       'C) Wind-blown dust accumulation',
       'D) Frozen carbon dioxide (dry ice) deposits',
     ],
@@ -180,7 +180,7 @@ export const solarSystemHabitabilityQuestions = [
     options: [
       'A) It orbits the Sun',
       'B) It has enough mass for its self-gravity to make it round',
-      'C) It has cleared the neighborhood around its orbit of other debris',
+      'C) It has cleared its orbital neighborhood of debris',
       'D) It is not a moon of another body',
     ],
     answer: 2,
@@ -196,11 +196,11 @@ export const solarSystemHabitabilityQuestions = [
     question: 'What makes Ganymede unique among all known moons in the solar system?',
     options: [
       'A) It has the thickest atmosphere of any moon',
-      'B) It is the only moon known to generate its own internal magnetic field',
       'C) It has active cryovolcanic geysers',
       'D) It has liquid water on its surface',
+      'B) It generates its own internal magnetic field',
     ],
-    answer: 1,
+    answer: 3,
     explanation:
       'Ganymede generates a true internal magnetosphere via convection in a liquid iron-rich core; other icy moons like Europa and Callisto only exhibit induced fields from Jupiter\'s magnetic field.',
   },
@@ -212,12 +212,12 @@ export const solarSystemHabitabilityQuestions = [
     difficulty: 'medium',
     question: "Ganymede's internal magnetic field is generated by:",
     options: [
-      "A) Reflection of Jupiter's magnetic field off its icy surface",
       'B) Convection within a liquid, iron-rich metallic core',
+      "A) Reflection of Jupiter's magnetic field off its icy surface",
       'C) Friction from tidal heating alone',
       'D) A thick ionized atmosphere',
     ],
-    answer: 1,
+    answer: 0,
     explanation: "Ganymede's magnetic field is intrinsically generated by convective motion in a liquid iron-rich core, much like Earth's own magnetic field.",
   },
   {
@@ -229,7 +229,7 @@ export const solarSystemHabitabilityQuestions = [
     question: "How does Ganymede's magnetic field differ from the magnetic signatures detected at Europa and Callisto?",
     options: [
       'A) Europa and Callisto have stronger fields than Ganymede',
-      "B) Ganymede's field is self-generated (intrinsic), while Europa's and Callisto's are induced by Jupiter's field interacting with their subsurface oceans",
+      "B) Ganymede's field is self-generated; the others are induced by Jupiter",
       'C) Only Ganymede has any magnetic field at all',
       'D) All three moons generate identical intrinsic fields',
     ],
@@ -245,12 +245,12 @@ export const solarSystemHabitabilityQuestions = [
     difficulty: 'easy',
     question: 'Makemake is classified as a:',
     options: [
-      'A) Comet',
-      'B) Trans-Neptunian dwarf planet in the Kuiper Belt',
-      'C) Moon of Neptune',
-      'D) Main-belt asteroid',
+      'A) A short-period comet',
+      'C) A captured moon of Neptune',
+      'B) Trans-Neptunian dwarf planet',
+      'D) A main-belt asteroid',
     ],
-    answer: 1,
+    answer: 2,
     explanation: 'Makemake is one of the five IAU-recognized dwarf planets and orbits the Sun as a trans-Neptunian object within the Kuiper Belt.',
   },
   {
@@ -262,11 +262,11 @@ export const solarSystemHabitabilityQuestions = [
     question: 'Unlike Pluto, Makemake:',
     options: [
       'A) Has a significant, confirmed substantial atmosphere',
-      'B) Has no significant confirmed atmosphere',
       'C) Is not round',
       'D) Orbits inside the asteroid belt',
+      'B) Has no significant confirmed atmosphere',
     ],
-    answer: 1,
+    answer: 3,
     explanation: "Makemake has no significant confirmed atmosphere, distinguishing it from Pluto, which has a thin, transient nitrogen atmosphere.",
   },
   {
@@ -288,12 +288,12 @@ export const solarSystemHabitabilityQuestions = [
     difficulty: 'hard',
     question: "Venus's nearly uniform surface temperature across day, night, pole, and equator, despite its extremely slow rotation, is best explained by:",
     options: [
+      "B) High wind speeds redistributing heat planet-wide",
       'A) Venus being tidally locked to the Sun, always showing the same face',
-      "B) High wind speeds in its lower atmosphere efficiently redistributing heat planet-wide",
       'C) A lack of any atmosphere to trap heat',
       'D) Rapid rotation smoothing out temperature differences',
     ],
-    answer: 1,
+    answer: 0,
     explanation:
       "Despite its extremely slow rotation, Venus's lower atmosphere has very high wind speeds that efficiently redistribute heat, making the surface nearly isothermal; Venus is not tidally locked to the Sun in a same-face sense.",
   },

@@ -18,8 +18,8 @@ export const humanImpactFreshwaterQuestions = [
     type: 'multiple-choice',
     difficulty: 'easy',
     question: "The water rights doctrine that allocates water based on 'first in time, first in right' is called...",
-    options: ['A) riparian rights', 'B) prior appropriation', 'C) public trust doctrine', 'D) eminent domain'],
-    answer: 1,
+    options: ['A) riparian rights', 'C) public trust doctrine', 'B) prior appropriation', 'D) eminent domain'],
+    answer: 2,
     explanation: 'Prior appropriation grants priority water access to whoever established their water right earliest, especially important in the water-scarce Western U.S.',
   },
   {
@@ -31,11 +31,11 @@ export const humanImpactFreshwaterQuestions = [
     question: 'What is the primary reason a reservoir forms behind a dam?',
     options: [
       'A) The dam evaporates water faster than it would naturally',
-      'B) The dam blocks the river channel, causing water to pool and rise behind it',
       'C) The dam pumps groundwater to the surface',
       'D) The dam filters pollutants out of the river',
+      'B) The dam blocks the channel, so water pools behind it',
     ],
-    answer: 1,
+    answer: 3,
     explanation: 'A dam physically blocks the flow of a river, causing water to accumulate and rise behind it, forming a reservoir.',
   },
   {
@@ -58,12 +58,12 @@ export const humanImpactFreshwaterQuestions = [
     difficulty: 'easy',
     question: 'Which of the following is an example of a Best Management Practice (BMP) for reducing nonpoint source pollution?',
     options: [
-      'A) Building a new industrial discharge pipe',
-      'B) Planting a vegetated riparian buffer strip along a stream',
+      'B) Planting a vegetated riparian buffer strip',
+      'A) Building a new industrial discharge pipeline',
       'C) Removing all wetlands from a watershed',
       'D) Increasing fertilizer application rates',
     ],
-    answer: 1,
+    answer: 0,
     explanation: 'A vegetated riparian buffer strip filters runoff and traps sediment and nutrients before they reach a stream, reducing nonpoint source pollution.',
   },
   {
@@ -74,10 +74,10 @@ export const humanImpactFreshwaterQuestions = [
     difficulty: 'medium',
     question: 'Which type of pollution is generally more difficult to regulate and control, and why?',
     options: [
-      'A) Point source, because it requires expensive permits',
-      'B) Nonpoint source, because it comes from many diffuse locations rather than a single identifiable outlet',
-      'C) They are equally easy to control',
-      'D) Nonpoint source, because it only occurs in cities',
+      'A) Point source, because it requires expensive permits to install',
+      'B) Nonpoint source, since it comes from many diffuse locations',
+      'C) They are equally easy to regulate and control',
+      'D) Nonpoint source, because it only occurs within cities',
     ],
     answer: 1,
     explanation: 'Nonpoint source pollution is harder to regulate because it originates from many scattered locations across a landscape rather than from a single controllable discharge point.',
@@ -103,11 +103,11 @@ export const humanImpactFreshwaterQuestions = [
     question: 'In a prior appropriation system during a drought, who generally retains water access first?',
     options: [
       'A) Whoever owns land closest to the water source',
-      'B) Whoever holds the oldest (senior) water right',
       'C) Whoever uses the least water',
+      'B) Whoever holds the oldest (senior) water right',
       'D) Whoever pays the highest fee that year',
     ],
-    answer: 1,
+    answer: 2,
     explanation: "Prior appropriation follows 'first in time, first in right,' so the holder of the oldest established water right has priority during shortages.",
   },
   {
@@ -129,12 +129,12 @@ export const humanImpactFreshwaterQuestions = [
     difficulty: 'hard',
     question: 'Building a dam traps sediment in the reservoir upstream. What is a likely downstream consequence of this reduced sediment supply?',
     options: [
-      'A) Downstream channel and beach/delta erosion due to sediment-starved water',
       'B) Increased downstream flooding frequency',
       'C) Immediate downstream eutrophication',
       'D) No effect on downstream geomorphology',
+      'A) Downstream erosion from sediment-starved water',
     ],
-    answer: 0,
+    answer: 3,
     explanation: 'Water released below a dam has excess energy relative to its now-reduced sediment load, so it tends to erode the downstream channel bed and banks, and sediment-starved coastlines/deltas can also erode over time.',
   },
   {
@@ -146,12 +146,12 @@ export const humanImpactFreshwaterQuestions = [
     question:
       'A city wants to reduce nonpoint source pollution and peak stormwater runoff from newly paved areas. Which practice would be LEAST effective for this goal?',
     options: [
-      'A) Installing permeable pavement',
+      'C) Increasing impervious surface area with no green infrastructure',
+      'A) Installing permeable paving materials',
       'B) Building bioswales/rain gardens to capture and infiltrate runoff',
-      'C) Increasing impervious surface area with no offsetting green infrastructure',
       'D) Constructing detention basins to slow stormwater release',
     ],
-    answer: 2,
+    answer: 0,
     explanation: 'Increasing impervious surface without any offsetting green infrastructure increases runoff volume and velocity, worsening nonpoint source pollution and peak stormwater flows rather than reducing them.',
   },
   {
@@ -163,7 +163,7 @@ export const humanImpactFreshwaterQuestions = [
     question: 'Which of the following is a well-documented, expected effect of climate change on freshwater systems in many temperate mountainous regions?',
     options: [
       'A) Uniformly increased snowpack in all mountain ranges',
-      'B) Earlier spring snowmelt and reduced summer streamflow in snowmelt-dependent basins',
+      'B) Earlier snowmelt and reduced summer streamflow',
       'C) Complete elimination of seasonal variability in streamflow',
       'D) No change in the frequency of droughts or floods',
     ],

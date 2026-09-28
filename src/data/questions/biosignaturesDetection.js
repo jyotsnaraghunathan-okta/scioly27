@@ -7,12 +7,12 @@ export const biosignaturesDetectionQuestions = [
     difficulty: 'easy',
     question: 'Which of the following best defines a biosignature?',
     options: [
+      'B) Evidence of past or present life',
       'A) Any radio signal from space',
-      'B) A substance, feature, or pattern that provides evidence of past or present life',
       'C) A type of exoplanet detection telescope',
       'D) A structure built by an intelligent civilization',
     ],
-    answer: 1,
+    answer: 0,
     explanation:
       'A biosignature is any substance, feature, or pattern whose presence indicates past or present life, distinct from a technosignature, which specifically indicates intelligent technology.',
   },
@@ -25,7 +25,7 @@ export const biosignaturesDetectionQuestions = [
     question: 'Why is the simultaneous presence of oxygen and methane in a planetary atmosphere considered a compelling potential biosignature?',
     options: [
       'A) Both gases are inert and never react',
-      'B) The two gases chemically react and would disappear quickly without a continuous replenishing source',
+      'B) The gases react and need a continuous source to persist',
       'C) Oxygen and methane can only be produced by intelligent life',
       'D) Neither gas can exist without liquid water',
     ],
@@ -42,11 +42,11 @@ export const biosignaturesDetectionQuestions = [
     question: "The tentative 2023-2025 JWST detections of dimethyl sulfide (DMS) in the atmosphere of K2-18b remain scientifically controversial primarily because:",
     options: [
       'A) DMS has never been detected anywhere in the universe before',
-      'B) Follow-up statistical reanalyses found low significance, and abiotic sources of similar spectral signals have been proposed',
       'C) K2-18b was later found not to exist',
+      'B) Reanalyses found low significance and possible abiotic causes',
       'D) JWST cannot observe exoplanet atmospheres at all',
     ],
-    answer: 1,
+    answer: 2,
     explanation:
       "Independent reanalyses of the JWST data produced conflicting results about the statistical significance of the DMS/DMDS signal, and possible non-biological sources for similar spectral features have been raised, so the scientific community considers the detection unconfirmed.",
   },
@@ -70,12 +70,12 @@ export const biosignaturesDetectionQuestions = [
     difficulty: 'easy',
     question: 'Transmission spectroscopy of an exoplanet atmosphere is performed by analyzing:',
     options: [
-      'A) Starlight that has passed through the planet\'s atmosphere during a transit',
       'B) Radio signals emitted by the planet',
       'C) Direct photographs of the planet\'s surface',
       'D) Gravitational waves from the planet\'s orbit',
+      'A) Starlight passing through the atmosphere during transit',
     ],
-    answer: 0,
+    answer: 3,
     explanation:
       "Transmission spectroscopy analyzes starlight filtered through an exoplanet's atmosphere during a transit; specific wavelengths get absorbed by atmospheric gases, revealing their composition.",
   },
@@ -87,12 +87,12 @@ export const biosignaturesDetectionQuestions = [
     difficulty: 'medium',
     question: 'Emission spectroscopy of an exoplanet is typically performed during which orbital configuration?',
     options: [
-      'A) When the planet transits in front of its star',
       'B) When the planet passes behind its star (secondary eclipse)',
+      'A) When the planet transits in front of its star',
       'C) When the planet is at its farthest point from its star',
       'D) During any part of the orbit, since emission does not depend on geometry',
     ],
-    answer: 1,
+    answer: 0,
     explanation:
       "Emission spectroscopy is typically performed around secondary eclipse, when the planet passes behind its star; comparing the combined light just before and during eclipse isolates the planet's own emitted thermal light.",
   },
@@ -116,7 +116,7 @@ export const biosignaturesDetectionQuestions = [
     question: 'What is cryovolcanism?',
     options: [
       'A) Volcanic eruptions of molten rock on icy bodies',
-      'B) Eruptions of water, ammonia, or other volatiles from icy bodies rather than molten rock',
+      'B) Eruptions of water or other volatiles instead of molten rock',
       'C) The freezing of a planet\'s entire atmosphere',
       'D) A type of impact cratering unique to comets',
     ],
@@ -133,11 +133,11 @@ export const biosignaturesDetectionQuestions = [
     question: 'Why do astrobiologists consider ongoing geologic activity to be an important factor for long-term planetary habitability?',
     options: [
       'A) It has no connection to habitability',
-      'B) It can recycle nutrients, help sustain a magnetic field, and replenish subsurface liquid reservoirs',
       'C) It always destroys any chance of surface liquid water',
+      'B) It can recycle nutrients and help sustain a magnetic field',
       'D) It only matters for gas giant planets',
     ],
-    answer: 1,
+    answer: 2,
     explanation:
       "Geologic activity such as volcanism, tectonics, or cryovolcanism can recycle nutrients between a planet's interior and surface/ocean, potentially help maintain a protective magnetic field, and replenish subsurface oceans, all of which support sustained habitability.",
   },
@@ -149,12 +149,12 @@ export const biosignaturesDetectionQuestions = [
     difficulty: 'easy',
     question: 'How does a technosignature differ from a biosignature?',
     options: [
-      'A) They are exactly the same thing',
-      'B) A technosignature indicates evidence of technology from an intelligent civilization, while a biosignature indicates life in general',
+      'A) They are exactly the same concept in astrobiology',
       'C) A technosignature only applies to radio waves',
       'D) A biosignature can only be detected on Earth',
+      'B) A technosignature implies tech; a biosignature implies life',
     ],
-    answer: 1,
+    answer: 3,
     explanation:
       'A biosignature indicates the presence of life in general (which could be microbial), while a technosignature specifically indicates evidence of technology built by an intelligent, technological civilization.',
   },
@@ -166,12 +166,12 @@ export const biosignaturesDetectionQuestions = [
     difficulty: 'medium',
     question: 'What observational signature would "Dysonian SETI" primarily search for as evidence of a Dyson sphere-like megastructure?',
     options: [
+      'B) Excess infrared "waste heat" unexplained by natural dust',
       'A) A sudden decrease in a star\'s mass',
-      'B) An excess of infrared "waste heat" radiation around a star not explained by natural dust',
       'C) A star turning into a black hole',
       'D) A star\'s complete disappearance from the sky',
     ],
-    answer: 1,
+    answer: 0,
     explanation:
       "A Dyson sphere capturing a star's energy would be expected to re-radiate absorbed energy as excess infrared \"waste heat,\" so Dysonian SETI searches for anomalous infrared excesses around stars that cannot be explained by natural dust or other known phenomena.",
   },
@@ -184,7 +184,7 @@ export const biosignaturesDetectionQuestions = [
     question: 'Which of the following would be classified as a technosignature rather than a general biosignature?',
     options: [
       'A) Atmospheric oxygen and methane in disequilibrium',
-      'B) Industrial pollutant gases, such as chlorofluorocarbons, detected in an exoplanet atmosphere',
+      'B) Industrial pollutant gases, like chlorofluorocarbons',
       'C) Chlorophyll-like surface reflectance patterns (a "red edge")',
       'D) Liquid water detected on a planet\'s surface',
     ],
@@ -199,8 +199,8 @@ export const biosignaturesDetectionQuestions = [
     type: 'multiple-choice',
     difficulty: 'medium',
     question: 'Which gas detected episodically in Mars\'s atmosphere is considered a potential biosignature candidate, since it should otherwise be destroyed by sunlight within a few hundred years?',
-    options: ['A) Nitrogen', 'B) Methane', 'C) Argon', 'D) Water vapor'],
-    answer: 1,
+    options: ['A) Nitrogen', 'C) Argon', 'B) Methane', 'D) Water vapor'],
+    answer: 2,
     explanation:
       'Methane (CH4) is chemically short-lived in the Martian atmosphere, so its episodic, localized detections require an ongoing source — either biological or geological — making it a candidate biosignature gas, unlike inert background gases.',
   },
@@ -213,11 +213,11 @@ export const biosignaturesDetectionQuestions = [
     question: 'Why are nitrogen and argon in a planetary atmosphere generally NOT considered biosignature gases?',
     options: [
       'A) They react instantly with sunlight',
-      'B) They are chemically inert and do not require continuous biological replenishment to persist',
       'C) They have never been detected on any planet',
       'D) They can only be produced by living organisms',
+      'B) They are chemically inert and need no biological replenishment',
     ],
-    answer: 1,
+    answer: 3,
     explanation: 'Nitrogen and argon are chemically inert background gases that can persist for very long timescales without any ongoing source, so their mere presence is not evidence of an active (potentially biological) process.',
   },
   {
@@ -228,12 +228,12 @@ export const biosignaturesDetectionQuestions = [
     difficulty: 'easy',
     question: "According to Kirchhoff's laws of spectroscopy, a cooler gas positioned in front of a hotter continuous light source produces a(n):",
     options: [
+      'C) Absorption-line spectrum',
       'A) Continuous spectrum',
       'B) Emission-line spectrum',
-      'C) Absorption-line spectrum',
       'D) Blank (featureless) spectrum',
     ],
-    answer: 2,
+    answer: 0,
     explanation: "Kirchhoff's third law states that a cooler foreground gas in front of a hotter continuous source produces absorption lines — this is the basis of transmission spectroscopy of planetary atmospheres.",
   },
   {
@@ -243,7 +243,7 @@ export const biosignaturesDetectionQuestions = [
     type: 'multiple-choice',
     difficulty: 'medium',
     question: "Which technique isolates a faint planet's spectral lines from its much brighter host star's spectrum by combining high-resolution spectroscopy with the planet's radial-velocity-derived orbital motion?",
-    options: ['A) Direct imaging', 'B) High-resolution cross-correlation spectroscopy', 'C) Astrometry', 'D) Photometric transit timing'],
+    options: ['A) Direct imaging of the planet itself', 'B) High-resolution cross-correlation spectroscopy', 'C) Astrometric position measurements over time', 'D) Photometric transit timing analysis'],
     answer: 1,
     explanation: "High-resolution cross-correlation spectroscopy cross-correlates observed spectra with template molecular signatures shifted for the planet's changing radial velocity, separating faint planetary lines from the star's dominant spectrum.",
   },
@@ -256,11 +256,11 @@ export const biosignaturesDetectionQuestions = [
     question: "Europa's lineae (dark ridged streaks) and lenticulae (smooth dark spots) are significant because they suggest:",
     options: [
       'A) A completely solid, geologically dead ice shell',
-      "B) An ice shell that 'rafts' in blocks and may float atop a subsurface ocean",
       "C) Active volcanism identical to Io's",
+      "B) An ice shell that shifts in blocks atop an ocean",
       'D) A thick, permanent CO2 atmosphere',
     ],
-    answer: 1,
+    answer: 2,
     explanation: "These surface features indicate that Europa's icy shell shifts and rafts in blocks, consistent with it floating atop a liquid subsurface ocean rather than being a rigid, unmoving crust.",
   },
   {
@@ -272,11 +272,11 @@ export const biosignaturesDetectionQuestions = [
     question: "Rosetta's study of comet 67P/Churyumov-Gerasimenko led scientists to reassess coma formation, finding that it involves:",
     options: [
       'A) Simple, instantaneous direct sublimation of surface ice alone',
-      'B) Trapped volatiles being released as subsurface ice structure changes (e.g., amorphous ice crystallizing), in addition to surface sublimation',
       'C) No ice or volatile content at all',
       'D) Coma material originating entirely from the solar wind',
+      'B) Trapped subsurface volatiles releasing as the ice structure changes',
     ],
-    answer: 1,
+    answer: 3,
     explanation: "Rosetta's data showed that 67P's coma formation is more complex than simple sublimation, also involving subsurface pockets of trapped gas released as the comet's ice structure changes.",
   },
 ]

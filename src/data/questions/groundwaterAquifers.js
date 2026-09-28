@@ -6,8 +6,8 @@ export const groundwaterAquifersQuestions = [
     type: 'multiple-choice',
     difficulty: 'easy',
     question: "Which term describes the percentage of a rock or sediment's volume made up of open pore space?",
-    options: ['A) Permeability', 'B) Porosity', 'C) Specific yield', 'D) Hydraulic conductivity'],
-    answer: 1,
+    options: ['A) Permeability', 'C) Specific yield', 'D) Hydraulic conductivity', 'B) Porosity'],
+    answer: 3,
     explanation: 'Porosity is the percentage of total volume that consists of open pore space capable of holding water.',
   },
   {
@@ -17,8 +17,8 @@ export const groundwaterAquifersQuestions = [
     type: 'multiple-choice',
     difficulty: 'easy',
     question: 'The upper boundary of the zone of saturation, where pore pressure equals atmospheric pressure, is called the...',
-    options: ['A) capillary fringe', 'B) water table', 'C) potentiometric surface', 'D) vadose zone'],
-    answer: 1,
+    options: ['B) water table', 'A) capillary fringe', 'C) potentiometric surface', 'D) vadose zone'],
+    answer: 0,
     explanation: 'The water table is the upper surface of the saturated zone in an unconfined aquifer.',
   },
   {
@@ -52,11 +52,11 @@ export const groundwaterAquifersQuestions = [
     question: 'Which type of aquifer is generally most vulnerable to surface contamination?',
     options: [
       'A) Confined aquifer',
-      'B) Unconfined (water table) aquifer',
       'C) Perched aquifer under thick clay',
+      'B) Unconfined (water table) aquifer',
       'D) Deep bedrock aquifer under multiple aquitards',
     ],
-    answer: 1,
+    answer: 2,
     explanation: 'Unconfined aquifers lack a protective aquitard above them, so contaminants can infiltrate directly from the surface through the vadose zone.',
   },
   {
@@ -88,8 +88,8 @@ export const groundwaterAquifersQuestions = [
     type: 'multiple-choice',
     difficulty: 'medium',
     question: 'The surface to which water would rise in wells tapping a confined aquifer is called the...',
-    options: ['A) water table', 'B) capillary fringe', 'C) potentiometric (piezometric) surface', 'D) vadose surface'],
-    answer: 2,
+    options: ['C) potentiometric surface', 'A) the shallow water table', 'B) the upper capillary fringe', 'D) the unsaturated vadose surface'],
+    answer: 0,
     explanation: 'The potentiometric surface represents the level to which water under pressure in a confined aquifer would rise in a well.',
   },
   {
@@ -124,10 +124,10 @@ export const groundwaterAquifersQuestions = [
     question:
       'A well is drilled into a confined aquifer. The potentiometric surface at that location lies below the ground surface but above the top of the aquifer. This well is best described as a...',
     options: [
-      'A) flowing artesian well',
-      'B) non-flowing (subartesian) well — water rises above the aquifer but not to the surface without pumping',
-      'C) unconfined water table well',
-      'D) perched well',
+      'A) fully flowing artesian well at ground level',
+      'B) non-flowing (subartesian) well, needing pumping',
+      'C) unconfined water table well nearby',
+      'D) shallow, isolated perched well',
     ],
     answer: 1,
     explanation: 'When the potentiometric surface is above the aquifer top but below ground level, water rises in the well above the aquifer but requires pumping to reach the surface — a non-flowing artesian condition.',

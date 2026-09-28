@@ -8,6 +8,8 @@ const navLinks = [
   { to: '/', label: 'Dashboard', icon: '📊' },
   { to: '/study', label: 'Study Guide', icon: '📖' },
   { to: '/rules', label: 'Rules', icon: '📋' },
+  { to: '/images', label: 'Images', icon: '🖼️' },
+  { to: '/highlands-virtual', label: 'Highlands Virtual', icon: '🏔️' },
   { to: '/flashcards', label: 'Flashcards', icon: '🃏' },
   { to: '/glossary', label: 'Glossary', icon: '📚' },
   { to: '/practice', label: 'Practice', icon: '✏️' },
