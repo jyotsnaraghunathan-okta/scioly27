@@ -30,3 +30,6 @@ Science_Olympiad_Div_B_Rules_2027_for_Web_Secured.pdf
 *.njsproj
 *.sln
 *.sw?
+
+# Original tournament test PDFs (source material, not for distribution)
+DynamicPlanet/

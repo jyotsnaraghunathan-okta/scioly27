@@ -24,22 +24,27 @@ export default function Dashboard() {
   const totalFlashcards = allFlashcards.length
   const totalQuestions = allQuestions.length + allFreeResponseQuestions.length
   const totalTopicTests = topics.length * 5
+  const isDynamicPlanet = selectedSubjectId === 'dynamic-planet'
 
   return (
     <div className="space-y-6 animate-fade-in">
-      {/* Header */}
-      <div>
-        <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
-        <p className="text-gray-500 mt-1">Science Olympiad Prep — Regional + State Level</p>
-      </div>
+      {!isDynamicPlanet && (
+        <>
+          {/* Header */}
+          <div>
+            <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
+            <p className="text-gray-500 mt-1">Science Olympiad Prep — Regional + State Level</p>
+          </div>
 
-      {/* Stats row */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <StatCard label="Events" value={subjects.length} icon="🏆" />
-        <StatCard label="Tests Taken" value={totalTests} icon="📝" />
-        <StatCard label="Avg Score" value={totalTests > 0 ? `${avgScore}%` : '—'} icon="📊" />
-        <StatCard label="Flashcards" value={totalFlashcards} icon="🃏" />
-      </div>
+          {/* Stats row */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <StatCard label="Events" value={subjects.length} icon="🏆" />
+            <StatCard label="Tests Taken" value={totalTests} icon="📝" />
+            <StatCard label="Avg Score" value={totalTests > 0 ? `${avgScore}%` : '—'} icon="📊" />
+            <StatCard label="Flashcards" value={totalFlashcards} icon="🃏" />
+          </div>
+        </>
+      )}
 
       {/* Subject content */}
       <SubjectSection
@@ -50,15 +55,17 @@ export default function Dashboard() {
       />
 
       {/* Quick actions */}
-      <div>
-        <h2 className="text-lg font-semibold text-gray-900 mb-3">Quick Actions</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          <QuickAction to="/flashcards" icon="🃏" label="Review Flashcards" desc="Spaced repetition" />
-          <QuickAction to="/practice" icon="✏️" label="Practice Questions" desc={`${totalQuestions} questions`} />
-          <QuickAction to="/tests" icon="📝" label="Take a Test" desc={`${totalTopicTests} topic tests`} />
-          <QuickAction to="/progress" icon="📈" label="View Progress" desc="Charts & analytics" />
+      {!isDynamicPlanet && (
+        <div>
+          <h2 className="text-lg font-semibold text-gray-900 mb-3">Quick Actions</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <QuickAction to="/flashcards" icon="🃏" label="Review Flashcards" desc="Spaced repetition" />
+            <QuickAction to="/practice" icon="✏️" label="Practice Questions" desc={`${totalQuestions} questions`} />
+            <QuickAction to="/tests" icon="📝" label="Take a Test" desc={`${totalTopicTests} topic tests`} />
+            <QuickAction to="/progress" icon="📈" label="View Progress" desc="Charts & analytics" />
+          </div>
         </div>
-      </div>
+      )}
     </div>
   )
 }

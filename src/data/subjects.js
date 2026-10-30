@@ -19,13 +19,7 @@ export const subjects = [
     icon: '🌊',
     description: "Earth's Fresh Waters (Div B)",
     color: '#0d9488',
-    topicIds: [
-      'streams-rivers',
-      'lakes-ponds',
-      'groundwater-aquifers',
-      'wetlands',
-      'human-impact-freshwater',
-    ],
+    topicIds: ['fluvial-geomorphology', 'measuring-monitoring', 'geologic-record', 'human-impacts', 'lakes-wetlands'],
   },
 ]
 

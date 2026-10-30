@@ -3,11 +3,6 @@ import { solarSystemHabitabilityQuestions } from './solarSystemHabitability'
 import { exoplanetSystemsQuestions } from './exoplanetSystems'
 import { biosignaturesDetectionQuestions } from './biosignaturesDetection'
 import { missionsInstrumentsQuestions } from './missionsInstruments'
-import { streamsRiversQuestions } from './streamsRivers'
-import { lakesPondsQuestions } from './lakesPonds'
-import { groundwaterAquifersQuestions } from './groundwaterAquifers'
-import { wetlandsQuestions } from './wetlands'
-import { humanImpactFreshwaterQuestions } from './humanImpactFreshwater'
 
 export {
   habitabilityFundamentalsQuestions,
@@ -15,11 +10,6 @@ export {
   exoplanetSystemsQuestions,
   biosignaturesDetectionQuestions,
   missionsInstrumentsQuestions,
-  streamsRiversQuestions,
-  lakesPondsQuestions,
-  groundwaterAquifersQuestions,
-  wetlandsQuestions,
-  humanImpactFreshwaterQuestions,
 }
 
 export const allQuestions = [
@@ -28,9 +18,4 @@ export const allQuestions = [
   ...exoplanetSystemsQuestions,
   ...biosignaturesDetectionQuestions,
   ...missionsInstrumentsQuestions,
-  ...streamsRiversQuestions,
-  ...lakesPondsQuestions,
-  ...groundwaterAquifersQuestions,
-  ...wetlandsQuestions,
-  ...humanImpactFreshwaterQuestions,
 ]

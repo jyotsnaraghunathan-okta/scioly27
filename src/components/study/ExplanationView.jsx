@@ -27,6 +27,29 @@ function OrganismImage({ url, caption, alt }) {
   )
 }
 
+function QuestionImages({ images }) {
+  return (
+    <div className={`mt-2 grid gap-2 ${images.length === 1 ? 'grid-cols-1' : 'grid-cols-1 sm:grid-cols-2'}`}>
+      {images.map((img, i) => (
+        <a
+          key={i}
+          href={img.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block rounded-lg overflow-hidden border border-indigo-200 bg-white no-underline"
+        >
+          <img
+            src={img.url}
+            alt={img.alt || img.caption || 'Question diagram'}
+            className={`w-full object-contain bg-white ${images.length === 1 ? 'max-h-[28rem]' : 'max-h-64'}`}
+          />
+          {img.caption && <p className="text-xs text-gray-500 text-center py-1 px-2 bg-gray-50">{img.caption}</p>}
+        </a>
+      ))}
+    </div>
+  )
+}
+
 function WorkedExample({ example, index }) {
   const [open, setOpen] = useState(false)
   return (
@@ -150,6 +173,46 @@ export default function ExplanationView({ topic, explanation }) {
             )}
           </div>
         ))}
+
+        {/* Previous Competition Questions */}
+        {(explanation.previousQuestions?.length > 0 || explanation.previousQuestionsNote) && (
+          <div className="bg-white rounded-lg border border-indigo-200 p-5">
+            <h3 className="font-semibold text-indigo-800 mb-1 text-lg">📋 Previous Competition Questions</h3>
+            <p className="text-xs text-indigo-500 mb-4">Real questions pulled from past tournament papers, with source.</p>
+            {explanation.previousQuestions?.length > 0 ? (
+              <div className="space-y-3">
+                {explanation.previousQuestionsNote && (
+                  <p className="text-sm text-indigo-700 bg-indigo-50/50 border border-dashed border-indigo-200 rounded-lg p-3">{explanation.previousQuestionsNote}</p>
+                )}
+                {explanation.previousQuestions.map((pq, i) => (
+                  <div key={i} className="rounded-lg border border-indigo-100 overflow-hidden">
+                    <div className="bg-indigo-50 px-4 py-2">
+                      <p className="text-sm text-indigo-900 font-medium">{pq.question}</p>
+                      {pq.images?.length > 0 && <QuestionImages images={pq.images} />}
+                      {pq.choices?.length > 0 && (
+                        <ul className="mt-1 text-xs text-indigo-700 space-y-0.5">
+                          {pq.choices.map((c, j) => <li key={j}>{c}</li>)}
+                        </ul>
+                      )}
+                    </div>
+                    {pq.answer && (
+                      <div className="bg-green-50 px-4 py-2">
+                        <p className="text-sm text-green-800"><span className="font-semibold">Answer:</span> {pq.answer}</p>
+                      </div>
+                    )}
+                    {pq.source && (
+                      <p className="text-xs text-gray-400 px-4 py-1.5 bg-gray-50">Source: {pq.source}</p>
+                    )}
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div className="bg-indigo-50/50 border border-dashed border-indigo-200 rounded-lg p-4">
+                <p className="text-sm text-indigo-700 leading-relaxed">{explanation.previousQuestionsNote}</p>
+              </div>
+            )}
+          </div>
+        )}
 
         {/* Worked Examples */}
         {explanation.workedExamples?.length > 0 && (

@@ -3,11 +3,11 @@ import { solarSystemHabitabilityExplanations } from './solarSystemHabitability'
 import { exoplanetSystemsExplanations } from './exoplanetSystems'
 import { biosignaturesDetectionExplanations } from './biosignaturesDetection'
 import { missionsInstrumentsExplanations } from './missionsInstruments'
-import { streamsRiversExplanations } from './streamsRivers'
-import { lakesPondsExplanations } from './lakesPonds'
-import { groundwaterAquifersExplanations } from './groundwaterAquifers'
-import { wetlandsExplanations } from './wetlands'
-import { humanImpactFreshwaterExplanations } from './humanImpactFreshwater'
+import { fluvialGeomorphologyExplanations } from './fluvialGeomorphology'
+import { measuringMonitoringExplanations } from './measuringMonitoring'
+import { geologicRecordExplanations } from './geologicRecord'
+import { humanImpactsExplanations } from './humanImpacts'
+import { lakesWetlandsExplanations } from './lakesWetlands'
 
 export {
   habitabilityFundamentalsExplanations,
@@ -15,11 +15,11 @@ export {
   exoplanetSystemsExplanations,
   biosignaturesDetectionExplanations,
   missionsInstrumentsExplanations,
-  streamsRiversExplanations,
-  lakesPondsExplanations,
-  groundwaterAquifersExplanations,
-  wetlandsExplanations,
-  humanImpactFreshwaterExplanations,
+  fluvialGeomorphologyExplanations,
+  measuringMonitoringExplanations,
+  geologicRecordExplanations,
+  humanImpactsExplanations,
+  lakesWetlandsExplanations,
 }
 
 export const allExplanations = [
@@ -28,9 +28,9 @@ export const allExplanations = [
   ...exoplanetSystemsExplanations,
   ...biosignaturesDetectionExplanations,
   ...missionsInstrumentsExplanations,
-  ...streamsRiversExplanations,
-  ...lakesPondsExplanations,
-  ...groundwaterAquifersExplanations,
-  ...wetlandsExplanations,
-  ...humanImpactFreshwaterExplanations,
+  ...fluvialGeomorphologyExplanations,
+  ...measuringMonitoringExplanations,
+  ...geologicRecordExplanations,
+  ...humanImpactsExplanations,
+  ...lakesWetlandsExplanations,
 ]
