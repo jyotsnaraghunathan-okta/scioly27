@@ -402,15 +402,37 @@ export const fluvialGeomorphologyExplanations = [
     title: 'Channel & Floodplain Landforms',
     sections: [
       {
+        heading: 'Start here: the simple version',
+        content:
+          "Rivers are always doing two jobs: picking up dirt and dropping it off. The secret to every landform below is one rule:\n\n    Fast water picks up sand and rock. Slow water drops it.\n\nWherever a river speeds up, it digs. Wherever it slows down, it builds.\n\n🟫 Cut bank: the outside of a river bend\nWhen a car turns a corner, you slide toward the outside of your seat. River water does the same thing: it swings to the outside of every bend and moves fastest there. That fast water bumps into the bank and scrapes it away, leaving a steep wall of dirt that keeps crumbling into the river.\n\n🏖️ Point bar: the inside of a river bend\nOn the inside of the same bend, the water is slow and shallow. Slow water can't carry much, so it drops sand and pebbles, building a little beach. Cut banks and point bars always come in pairs: one side of the bend loses land and the other side gains it, so the whole river slowly wiggles sideways across the land.\n\n🐂 Oxbow lake: a bend that got cut off\nAs bends grow loopier, two bends can get so close that only a thin neck of land separates them. During a big flood, the river breaks through the neck and takes the shortcut. The old loop is left behind, its ends get plugged with mud, and it becomes a U-shaped lake. It is named after the U-shaped wooden collar (an oxbow) that farmers put on oxen.\n\n🌾 Floodplain: the flat land beside the river\nAfter heavy rain, a river can get too full and spill over its banks. The water spreads across the flat land next to it and leaves behind a thin layer of mud. Flood after flood, those mud layers build a wide, flat floodplain. The soil is great for farming, but it's a risky place to build houses because it floods.\n\n⛰️ Natural levees: raised banks along the river\nWhen floodwater spills out of the river, it slows down right at the edge, like a kid stopping at the bottom of a slide. The heaviest sand drops first, right next to the river. After many floods, that sand piles up into long, low ridges along both banks. These are natural levees.\n\n🔺 Delta: where a river meets a lake or the ocean\nWhen a river flows into still water, it suddenly slows down and drops all the sand and mud it was carrying. The pile grows out into the water, and the river splits into smaller channels that spread out like fingers. Many deltas look like a triangle, which is why they are named after the Greek letter delta (Δ). The Mississippi and the Nile have famous deltas.\n\n🪭 Alluvial fan: where a mountain stream hits flat land\nA steep mountain stream rushes out of a narrow canyon onto a flat valley. Suddenly it has room to spread out and slows down, so it dumps its rocks and sand in a fan shape. It's like pouring sand out of a funnel onto a table. Big rocks stay close to the mountain and finer sand travels to the edges of the fan. Alluvial fans are common in deserts.\n\nThe diagram shows all seven landforms. The top picture looks down on a river from above, and the bottom picture slices across the river to show its sides.",
+        diagram: {
+          url: '/images/diagrams/channel-floodplain-landforms.svg',
+          caption: 'Top: bird\'s-eye view of a river from the mountains to the ocean. Bottom: side view across the river. Click to enlarge.',
+          alt: 'Diagram of a river showing an alluvial fan at the mountains, a meandering river with a point bar on the inside of a bend and a cut bank on the outside, an oxbow lake, the floodplain, natural levees, and a delta at the ocean, plus a side view showing the valley walls, floodplain, natural levees, cut bank, and point bar.',
+        },
+        keyPoints: [
+          'Fast water digs (erosion); slow water drops sand and mud (deposition).',
+          'Cut bank = outside of a bend, fast water, steep and eroding. Point bar = inside of a bend, slow water, sandy and growing.',
+          'Oxbow lake = an old river bend that got cut off.',
+          'Floodplain = flat land built by floods; natural levees = sand ridges dropped right at the riverbank during floods.',
+          'Delta = sand dropped where a river enters a lake or ocean. Alluvial fan = sand and rock dropped where a mountain stream reaches flat land.',
+        ],
+      },
+      {
         heading: 'Channel patterns: straight, meandering, braided, anastomosing',
         content:
-          "Alluvial channels, which flow through their own sediment, take on characteristic planform patterns:\n\n• Straight: rare and usually short. Often controlled by a fault, joint, or engineered channel. Even here the thalweg wanders between pools and riffles, and alternating bars form.\n• Meandering: a single channel with regular, looping bends. Typical of gentle gradients, fine-grained (suspended and mixed) loads, and cohesive, vegetated banks. Features: cut banks, point bars, oxbow lakes, wide floodplains.\n• Braided: many shallow channels that divide and rejoin around shifting bars of sand and gravel. Associated with a high, coarse bed load, steep gradients, erodible non-cohesive banks, and highly variable discharge. Common downstream of glaciers (outwash plains) and in arid mountain fronts.\n• Anastomosing: multiple channels separated by stable, vegetated islands made of floodplain sediment. Low gradient, fine sediment, cohesive banks; the channels are individually stable and often sinuous.\n\nSchumm's USGS Circular 477 (1963) classified alluvial channels by the type of sediment they carry:\n• Suspended-load channels: high silt-clay in banks, narrow and deep (low width/depth ratio), high sinuosity, stable meanders.\n• Mixed-load channels: intermediate.\n• Bed-load channels: low silt-clay, wide and shallow (high width/depth ratio), low sinuosity, often braided.\nSchumm also distinguished stable, eroding, and depositing (aggrading) channels. The key idea is that channel shape reflects the load the river carries.",
+          "If you flew over rivers in an airplane, you would see that they come in four main shapes. Each shape tells you something about how steep the land is and what the river is carrying.\n\n➖ Straight\nOne channel with almost no bends. Straight rivers are rare in nature. They usually follow a crack in the rock (a fault or joint) or were straightened by people. Even in a straight channel, the deepest part of the water zig-zags from side to side, and small sand bars form on alternating sides.\n\n〰️ Meandering\nOne channel that loops back and forth in S-shaped bends, like a snake. Meandering rivers flow across gentle, nearly flat land and carry mostly fine mud. Their banks are muddy and held together by plant roots, so the river bends instead of spreading out. Look for cut banks, point bars, oxbow lakes, and wide floodplains (see the section above). The Mississippi River is a famous example.\n\n🔀 Braided\nMany shallow channels that split apart and join back together, like a braid of hair, flowing around bare bars of sand and gravel. Braided rivers form where:\n• the land is steep,\n• the river carries a lot of coarse sand and gravel (more than it can move easily),\n• the banks are loose and wash away easily, and\n• the amount of water changes a lot, for example a flood of meltwater every summer.\nThey are common just downstream of glaciers and where mountain streams reach desert valleys. The bars move around after every flood.\n\n🏝️ Anastomosing\nSeveral channels that weave around islands, but unlike a braided river, the islands are stable and covered in grass, bushes, or trees. These rivers flow over very flat land, carry fine mud, and have sticky, muddy banks. Each channel stays in place for a long time, and the channels are often curvy.\n\nBraided vs. anastomosing: both have many channels. Braided = steep, gravelly, bare islands that keep moving. Anastomosing = flat, muddy, plant-covered islands that stay put.\n\nWhy rivers take different shapes: what the river carries\nIn 1963, geologist Stanley Schumm (USGS Circular 477) showed that a river's shape depends mostly on the kind of sediment it carries:\n• Suspended-load rivers carry mostly fine mud floating in the water. Their muddy banks are strong, so the channel is narrow and deep and very curvy (meandering).\n• Bed-load rivers carry mostly sand and gravel bouncing and rolling along the bottom. Their sandy banks crumble easily, so the channel is wide and shallow, fairly straight, and often braided.\n• Mixed-load rivers carry some of each and fall in between.\nSchumm also sorted channels by whether they are stable (staying the same), eroding (cutting down), or depositing (filling up with sediment).\n\nThe big idea: what a river carries decides what it looks like. Muddy rivers wind; gravelly rivers braid.",
+        diagram: {
+          url: '/images/diagrams/channel-patterns.svg',
+          caption: 'Top: the four channel patterns from above. Bottom: channel shapes for suspended-load, mixed-load, and bed-load rivers (Schumm, 1963). Click to enlarge.',
+          alt: 'Diagram. Top row: a straight channel with alternating sand bars and a zig-zag deepest path; a meandering channel with point bars and an oxbow lake; a braided river with many thin channels over bare sand and gravel bars; an anastomosing river with several channels around plant-covered islands. Bottom row: cross-sections showing a narrow, deep suspended-load channel full of fine mud; a medium mixed-load channel; and a wide, shallow bed-load channel with gravel on the bottom.',
+        },
         keyPoints: [
-          'Straight: rare; often structurally controlled; still has a wandering thalweg.',
-          'Meandering: single sinuous channel, gentle gradient, fine load, cohesive banks.',
-          'Braided: many shifting channels around bars; coarse bed load, steep gradient, variable discharge.',
-          'Anastomosing: multiple stable channels around vegetated islands; low gradient, fine sediment.',
-          'Schumm (1963): channel form depends on load type; bed-load channels are wide and shallow, suspended-load channels are narrow, deep, and sinuous.',
+          'Straight: one channel, almost no bends; rare in nature (follows a fault or was straightened by people).',
+          'Meandering: one loopy S-shaped channel; gentle slope, fine mud, sturdy plant-held banks.',
+          'Braided: many shallow channels around bare, moving sand and gravel bars; steep slope, lots of coarse sediment, loose banks, changing water flow (e.g., below glaciers).',
+          'Anastomosing: several channels around stable, plant-covered islands; very flat land and muddy banks.',
+          'Schumm (1963): suspended load (mud) → narrow, deep, curvy; bed load (sand and gravel) → wide, shallow, straight or braided; mixed load → in between.',
         ],
       },
       {
@@ -544,6 +566,7 @@ export const fluvialGeomorphologyExplanations = [
       // ───── Longitudinal profile, gradient & base level ─────
       {
         source: 'Sierra Vista SO 2023 — Dynamic Planet B, Q50–52',
+        explain: "Base level is the 'floor' a river can't dig below, like how water in a bathtub can't drain lower than the drain. A river can only flow downhill until it reaches the water it empties into. If that's the ocean, the floor is sea level. In this picture the floor is higher than sea level, which means the river ends in a lake, and the lake's surface is its floor.",
         images: [
           { url: `${IMG}/svso23-image11-stream-profile.jpg`, caption: 'Image 11: longitudinal profile of a hypothetical stream (bottom = sea level)' },
         ],
@@ -554,6 +577,7 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'Sierra Vista SO 2023 — Dynamic Planet B, Q56',
+        explain: "Gradient means how steep the river is: how many feet it drops for every foot it travels. Divide the drop (70 ft) by the distance (about 21,000 ft). The answer, 0.003, means the river drops about 3 feet for every 1,000 feet it flows. That's a gentle slope.",
         images: [
           { url: `${IMG}/svso23-image11-stream-profile.jpg`, caption: 'Image 11: stream profile with knickpoint A' },
         ],
@@ -562,6 +586,7 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'UT Invitational 2022 — Dynamic Planet B, Q4',
+        explain: "Gradient as a percent = (how far the creek drops ÷ how far it travels) × 100. Count the contour lines the creek crosses to find the drop (about 400 ft), then divide by 10,000 ft: 400 ÷ 10,000 = 0.04 = 4%. Choices A, C, and D come from counting too few or too many contour lines.",
         images: [
           { url: `${IMG}/ut22-figA-lincoln-lake-map.jpg`, caption: 'Figure A: Map of Lincoln Lake and surrounding area (elevation in feet)' },
         ],
@@ -571,6 +596,7 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'SONI National Invitational 2022 — Dynamic Planet B, Q5',
+        explain: "(a) Trellis drainage looks like a garden trellis or a fence: long parallel streams in the valleys, with short side streams joining them at right angles. It forms where there are long ridges and valleys. (b) Gradient = drop ÷ distance: 120 ft ÷ 21,000 ft ≈ 0.006. (c) The small streams flow into the bigger creek, so they are tributaries (streams that join). Distributaries are the opposite: streams that split away, like at a delta.",
         images: [
           { url: `${IMG}/soni22-q5-lehigh-valley-map.jpg`, caption: 'Topographic map of the Lehigh Valley, PA' },
         ],
@@ -581,12 +607,14 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'UT Invitational 2021 (Div. B/C) — Dynamic Planet, Q9',
+        explain: "Valley deepening means the river is digging down. A river digs hardest when it is steep (fast water) and has a long way to fall before it reaches its floor (a low base level). That's choice B. A shallow slope (C, D) means slow water, and a high base level (A, C) means the river is already close to its floor, so it can't dig much deeper.",
         question: 'Which conditions below most favor valley deepening? A) A steep gradient with a high base level B) A steep gradient with a low base level C) A shallow gradient with a high base level D) A shallow gradient with a low base level',
         choices: ['A) A steep gradient with a high base level', 'B) A steep gradient with a low base level', 'C) A shallow gradient with a high base level', 'D) A shallow gradient with a low base level'],
         answer: 'B) A steep gradient with a low base level — maximum erosional potential, driving downcutting.',
       },
       {
         source: 'UT Invitational 2021 (Div. B/C) — Dynamic Planet, Q44',
+        explain: "When base level drops, the river suddenly has farther to fall, so it speeds up and digs a deeper channel. The test's answer says discharge (the amount of water flowing by) goes up because the channel gets deeper. In real life, the amount of water mostly depends on rain and snow upstream, so remember the test answer but know that the main effect is the river digging down.",
         question: 'Suppose the base level of a stream dropped. Would the stream discharge increase, decrease, or remain unchanged? Briefly justify your answer.',
         answer: 'Discharge would increase, because the drop in base level causes more erosion and a deeper stream channel via downcutting.',
       },
@@ -594,6 +622,7 @@ export const fluvialGeomorphologyExplanations = [
       // ───── Dynamic equilibrium & graded streams ─────
       {
         source: 'UT Invitational 2022 — Dynamic Planet B, Q6',
+        explain: "Farther from the lake, the creek has picked up more sand and mud along the way, so it carries more sediment (C). The rocks also get smashed and rounded into smaller pieces as they travel, so the sediment gets finer (D). Big rocks (A) and bare bedrock (E) are found near the start, where the stream is steep. The water doesn't get faster just because it's farther away (B).",
         images: [
           { url: `${IMG}/ut22-figA-lincoln-lake-map.jpg`, caption: 'Figure A: Map of Lincoln Lake and surrounding area (elevation in feet)' },
         ],
@@ -604,29 +633,34 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'BirdSO Invitational — Dynamic Planet B, Section 2 Q10 (True/False)',
+        explain: "False. 'Dynamic equilibrium' doesn't mean nothing ever happens to the river. Floods, droughts, and landslides happen all the time. It means the river keeps fixing itself after each change, like a seesaw that keeps rebalancing. It digs where it has extra energy and drops sand where it has too much.",
         question: 'True/False: A river system in dynamic equilibrium means that it is not subject to disturbances or perturbations that may affect its flow.',
         answer: 'False — dynamic equilibrium means the stream continuously self-adjusts (via erosion/deposition) in response to disturbances, not that it is immune from them.',
       },
       {
         source: 'UT Invitational 2021 (Div. B/C) — Dynamic Planet, Q16',
+        explain: "As you go downstream, more streams join in, so the channel gets bigger (B), and the river drops more sand than it picks up (A). The land also gets flatter, so the gradient (C) goes down, and the bed gets smoother with finer sand, so roughness (D) goes down too.",
         question: 'Select ALL of the following that increase in the downstream direction: A) Deposition minus erosion B) Channel size C) Channel gradient D) Channel roughness',
         choices: ['A) Deposition minus erosion', 'B) Channel size', 'C) Channel gradient', 'D) Channel roughness'],
         answer: 'A and B — channel size and net deposition increase downstream, while gradient and roughness decrease downstream.',
       },
       {
         source: 'Rickards Invitational — Dynamic Planet B, Q5',
+        explain: "Hawaii's islands are young, so their streams are 'kids' too. Young (youthful) streams flow down steep slopes, run fast, and cut fairly straight paths, so the answer is A. Loopy meanders take a very long time to form on flat land, so 'mature' and 'meandering' don't fit a brand-new island.",
         question: "Because Hawaii is extremely young on the geologic time scale, which of the following best describes the types of streams you may find? A) Youthful, straight B) Mature, straight C) Youthful, meandering D) Mature, meandering",
         choices: ['A) Youthful, straight', 'B) Mature, straight', 'C) Youthful, meandering', 'D) Mature, meandering'],
         answer: "A) Youthful, straight — in Davis's cycle of erosion, youthful streams are steep, fast, and relatively straight; meandering develops later in the mature stage.",
       },
       {
         source: 'University of Chicago Invitational 2022 — Dynamic Planet B, Q45',
+        explain: "An 'old-age' stream is like a tired old river on very flat land. It moves slowly (C), loops back and forth (B), and over a long time spreads a wide, flat floodplain (D). Steep slopes, lots of digging, and V-shaped valleys (A, E, F) describe a young, energetic stream instead.",
         question: 'According to the Davis cycle of erosion, what characterizes an old-age stream? (Select all that apply) A) Steep gradients of surrounding terrain B) Meandering C) Slow movement D) Wide floodplain E) High erosion F) V-shaped valleys',
         choices: ['A) Steep gradients', 'B) Meandering', 'C) Slow movement', 'D) Wide floodplain', 'E) High erosion', 'F) V-shaped valleys'],
         answer: 'B, C, D — meandering, slow movement, and a wide floodplain. Steep gradients, high erosion, and V-shaped valleys describe youthful streams instead.',
       },
       {
         source: 'Troy Invitational 2021-22 — Dynamic Planet B, Q10',
+        explain: "A rejuvenated river is an old river that gets a burst of new energy, usually because the land rose or the sea level dropped, so it starts digging down again. You'd see rapids and loops cut deep into rock. Broad, flat plains are what an old, lazy river makes, so many books would pick (a). This test's key chose 'all of the above,' so answers can differ between tests.",
         question: 'Which of the following is NOT a defining characteristic of a rejuvenated valley/channel? a) Broad, flat plains b) Meanders c) Sandbars d) Rapids e) All of the above f) Answers b and d',
         choices: ['a) Broad, flat plains', 'b) Meanders', 'c) Sandbars', 'd) Rapids', 'e) All of the above', 'f) Answers b and d'],
         answer: "Key: e) All of the above. Note: many textbooks would single out a) broad, flat plains, since rejuvenation renews downcutting (incised meanders, rapids, knickpoints) rather than building broad plains. Expect this answer to vary between tests.",
@@ -635,12 +669,14 @@ export const fluvialGeomorphologyExplanations = [
       // ───── Erosional features (knickpoints, waterfalls, V-shaped valleys) & processes ─────
       {
         source: 'Sierra Vista SO 2023 — Dynamic Planet B, Q17',
-        question: 'Which of the following would NOT result in the creation of a knickpoint? A) A stream’s substrate suddenly changing from limestone to granite B) A stream flowing over a normal fault from the footwall to the hanging wall C) A stream flowing over a reverse fault from hanging wall side to footwall side D) A glacier forming a hanging valley and then melting',
-        choices: ['A) Substrate change limestone→granite', 'B) Normal fault, footwall→hanging wall', 'C) Reverse fault, hanging wall→footwall', 'D) Glacier forming a hanging valley then melting'],
-        answer: 'B) A stream flowing over a normal fault from the footwall to the hanging wall side does NOT create a knickpoint (it flows onto a down-dropped, lower block — no abrupt drop); the other three scenarios all create a sudden break in slope.',
+        explain: "A knickpoint is a sudden step in a river, like a waterfall. Steps form where the river drops off something, or where the rock right below it wears away faster. Hard rock followed by soft rock (b) makes a step, because the soft rock downstream gets dug out faster. The faults (c, d) drop the river from a higher block to a lower block. A hanging valley left by a glacier (e) is a cliff. Soft rock followed by hard rock (a) doesn't make a drop. The river just runs into a harder floor.",
+        question: "Which of the following would NOT result in the creation of a knickpoint? a) A stream's substrate suddenly changing from limestone to granite b) A stream's substrate suddenly changing from granite to limestone c) A stream flowing over a normal fault from the footwall side to the hanging wall side d) A stream flowing over a reverse fault from the hanging wall side to the footwall side e) A glacier forming a hanging valley and then melting",
+        choices: ["a) Substrate changes limestone → granite", "b) Substrate changes granite → limestone", "c) Normal fault, footwall → hanging wall", "d) Reverse fault, hanging wall → footwall", "e) Glacier forms a hanging valley, then melts"],
+        answer: "a) A stream flowing from limestone onto granite. Flowing from soft rock onto hard rock does not create a sudden drop. Going from hard rock onto soft rock (b) does: the soft rock downstream erodes faster, leaving a step. The faults (c, d) both drop the stream from a higher block onto a lower one, and a melted glacier leaves a hanging valley (e). All of those create a sudden step.",
       },
       {
         source: 'Sierra Vista SO 2023 — Dynamic Planet B, Q37–39',
+        explain: "Imagine the shirt necklines are river valleys. A sharp V is a young river busily digging straight down. A wide, gentle U is a mature river that has had time to widen its valley. A V cut into the bottom of a wide valley is a rejuvenated river: an old river that started digging again, carving a new V inside its old valley.",
         images: [
           { url: `${IMG}/svso23-image9-shirt-valleys.jpg`, caption: 'Image 9: shirt seams A, B, C as river-valley cross-sections' },
         ],
@@ -651,35 +687,41 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'Rickards Invitational — Dynamic Planet B, Q2–4',
+        explain: "Downcutting is when a river digs its bed deeper, carving a valley. Headward erosion is when the river's starting point (its head) wears back uphill, so the stream gets longer at the top. Stream capture (stream piracy) is when one stream erodes backward until it breaks into another stream's valley and steals its water.",
         question:
           "Hawaiian volcanoes start out with flat lava slopes, but over time streams carve valleys into the sides. (Q2) What is the name of this process? (Q3) What is the name of this process when it occurs at the stream's source? (Q4) Sometimes, due to that effect, one stream erodes back into the bed of another and diverts its flow — what is this process called?",
         answer: 'Q2: Downcutting. Q3: Headward erosion. Q4: Stream capture (stream piracy).',
       },
       {
         source: 'Rickards Invitational — Dynamic Planet B, Q85–87',
+        explain: "Erosion words describe how water breaks rock: hydraulic action (the water's push), corrasion or abrasion (sand scraping like sandpaper), attrition (rocks bumping each other), and corrosion (dissolving rock). Transportation words describe how sediment travels: saltation (bouncing), suspension (floating), traction (rolling), solution (dissolved). Deposition means dropping sediment, and flocculation is when tiny clay bits clump together and sink.",
         question: 'Which of the following terms are associated with (85) erosion, (86) transportation, and (87) deposition: Flocculation, Hydraulic Action, Corrasion, Saltation, Corrosion, Solution, Suspension, Attrition, Traction?',
         answer: 'Erosion: Hydraulic Action, Corrasion (abrasion), Attrition, Corrosion (solution). Transportation: Saltation, Suspension, Traction, Solution (dissolved load). Deposition: Flocculation (fine clay particles clumping and settling).',
       },
       {
         source: 'Highlands Invitational 2022 — Dynamic Planet B, Q68',
+        explain: "A knickpoint forms whenever the river's 'floor' suddenly drops compared with the land. The land can be pushed up by tectonics (A), the ocean can go down (B), or land can spring back up after heavy glaciers melt (C, isostatic rebound). All three do it, so D.",
         question: 'Which of the following can cause the formation of knickpoints? A) Tectonic uplifting B) Decreased ocean water influx C) Isostatic rebound D) All of the above',
         choices: ['A) Tectonic uplifting', 'B) Decreased ocean water influx', 'C) Isostatic rebound', 'D) All of the above'],
         answer: 'D) All of the above — any relative base-level drop (uplift, rebound, or falling sea/lake level) can trigger a knickpoint.',
       },
       {
         source: 'Highlands Invitational 2022 — Dynamic Planet B, Q69',
+        explain: "When a stream gets 'robbed' (captured), it leaves clues. Cols, also called wind gaps, are dry notches in a ridge where a river used to flow. Water gaps are notches that still have a river in them. An underfit stream is a tiny creek sitting in a giant valley it couldn't have carved, because its water was stolen. All three are clues, so D.",
         question: 'Which of the following provide evidence for river capture? A) Cols B) Water gaps C) Under-fit streams D) All of the above E) None of the above',
         choices: ['A) Cols', 'B) Water gaps', 'C) Under-fit streams', 'D) All of the above', 'E) None of the above'],
         answer: 'D) All of the above — cols (wind gaps), water gaps, and underfit (misfit) streams are all classic evidence of past stream capture.',
       },
       {
         source: 'UT Invitational 2021 (Div. B/C) — Dynamic Planet, Q33',
+        explain: "Knickpoints (sudden steps like waterfalls) can form when the land is pushed up (A) or when glaciers leave behind hanging valleys (B). They are NOT a feature of a graded, balanced stream (C). A graded stream has a smooth slope with no steps. They also aren't defined by valley shape (D).",
         question: 'Select ALL statements that are true about knickpoints: A) Tectonic uplift can result in knickpoint formation B) Knickpoints can be created as a result of glacial activity C) Knickpoints are key features of graded streams D) Knickpoints are features contained within V-shaped valleys',
         choices: ['A) Tectonic uplift', 'B) Glacial activity', 'C) Key feature of graded streams', 'D) Contained within V-shaped valleys'],
         answer: 'A and B. (C is false — knickpoints are a sign of disequilibrium, not a graded profile; D is false — they are not defined by valley shape.)',
       },
       {
         source: 'SONI National Invitational 2022 — Dynamic Planet B, Q8',
+        explain: "The knickpoint is the steep step in the riverbed, about 10 m along the picture in 2008. Each year the step moved upstream, because water pouring over it keeps chewing away its edge. The biggest jump happened between 2009 and 2010, and the biggest jump means the strongest flow did the most chewing.",
         images: [
           { url: `${IMG}/soni22-q8-iowa-streambed.jpg`, caption: 'Streambed cross-section in central Iowa, surveyed 2008–2010' },
         ],
@@ -690,22 +732,26 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'SONI National Invitational 2022 — Dynamic Planet B, Q9',
+        explain: "If a fault pushes the land up, the stream on that side gets steeper and faster. A faster stream digs backward (uphill) faster, until it breaks into the next stream's valley and steals its water. That's stream capture.",
         question: 'Explain how faulting can result in stream capture.',
         answer: 'Uplift occurring downstream of the head of the watershed steepens the gradient there, so that stream erodes headward faster and intercepts (captures) the flow of a neighboring stream.',
       },
       {
         source: 'BirdSO Invitational — Dynamic Planet B, Q5',
+        explain: "A knickpoint, like a waterfall, wears away at its edge as water pours over it. Each bit that breaks off makes the waterfall a little farther upstream, so it 'walks' backward up the river. The answer is A, upstream.",
         question: 'How does the location of a knickpoint tend to change over time? A) Moves upstream B) Moves downstream C) Moves from side to side D) Moves straight down',
         choices: ['A) Moves upstream', 'B) Moves downstream', 'C) Moves side to side', 'D) Moves straight down'],
         answer: 'A) Moves upstream — knickpoints retreat upstream via headward erosion.',
       },
       {
         source: 'BirdSO Invitational — Dynamic Planet B, Section 2 Q3 (True/False)',
+        explain: "True. Hard rock wears away slowly and soft rock wears away quickly. Where a river flows from hard rock onto soft rock, the soft part gets dug down faster, leaving a step (a knickpoint) at the edge of the hard rock.",
         question: 'True/False: In a region where a river transitions from flowing over more resistant bedrock to less resistant bedrock, a knickpoint is likely to form after some time.',
         answer: 'True — differential erosion rates across the resistance boundary create an abrupt break in slope (a knickpoint).',
       },
       {
         source: 'BullSO Invitational — Dynamic Planet B, Q6–7',
+        explain: "On a curve, water swings to the outside, like you sliding toward the car door on a turn, so the outside is fast and the inside is slow (speeds: D). Fast water digs away the outside bank, and slow water drops sand on the inside (actions: D).",
         question: 'Which of the following describes the relative speeds and actions of a meandering river at the inside vs. outside of a curve?',
         choices: [
           'Speeds — A) Inside high, outside low B) Inside low, outside low C) Inside high, outside high D) Inside low, outside high',
@@ -715,18 +761,21 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'Troy Invitational 2021-22 — Dynamic Planet B, Q69',
+        explain: "Meanders grow step by step. A straight channel starts to wobble. Water hits the outside of each wobble and digs it out, while sand piles up on the inside. The bends get bigger, the water starts spiraling around each bend (helicoidal flow), and the loops slowly creep downstream.",
         question: 'List the 5 stages in the formation of a meander.',
         answer:
           '1) A straight channel deepens along its bars. 2) The river oscillates, undercutting the outer bank while deposition begins on the inside, though the channel is not yet widening. 3) Hydraulic action and abrasion deepen the channel, and point bars form on the inner bank. 4) Helicoidal flow emerges, creating bends in the developing meanders. 5) Erosion progresses from the middle toward the bend of a meander, and the meanders migrate downstream.',
       },
       {
         source: 'Troy Invitational 2021-22 — Dynamic Planet B, Q2',
+        explain: "The inner bank of a bend (A) has shallow, slow water that rubs against the bottom, which creates friction. That's why sand gets dropped there. The outer bank (B) is deep and fast. The other choices are features, not parts of the bend where water flows.",
         question: 'What part of a meander has less water, slower flow, and more friction? A) Inner bank of a meander B) Outer bank of a meander C) Meander scars D) Channel cut off E) Oxbow lake',
         choices: ['A) Inner bank of a meander', 'B) Outer bank of a meander', 'C) Meander scars', 'D) Channel cut off', 'E) Oxbow lake'],
         answer: 'A) Inner bank of a meander — shallower water, slower flow, and more bed friction than the deeper, faster-flowing outer bank (cut bank).',
       },
       {
         source: 'UMSO 2023 — Dynamic Planet B, Section 2 Q3–4',
+        explain: "Water is fastest in the deep part near the outside of the bend (the cut bank) and slowest in the shallow part near the inside (the point bar). Think of runners on a curved track: the runner in the outside lane has farther to go, so to finish together they must run faster. River water is the same.",
         images: [
           { url: `${IMG}/umso23-s2q3-meander-cross-section.jpg`, caption: 'Cross-section of a meandering river' },
         ],
@@ -737,6 +786,7 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'BirdSO Invitational — Dynamic Planet B, Section 2 Q5 & Q6 (True/False)',
+        explain: "Q5 is true. The thalweg (the deepest, fastest line of water) hugs the outside of a bend, near the cut bank. Q6 is false. In a straight channel, the fastest water is near the top middle, because the bottom and sides slow the water down by rubbing against it.",
         question: '(Q5) True/False: For a meandering stream, the thalweg is closer (in horizontal distance) to the cut bank than the point bar. (Q6) True/False: In a straight channel, the greatest flow velocity tends to be near the bed of the channel.',
         answer: 'Q5: True — the thalweg (line of deepest/fastest flow) hugs the outer, cut-bank side of a meander. Q6: False — in a straight channel, peak velocity occurs near the surface/center, away from bed friction, not near the bed.',
       },
@@ -744,12 +794,14 @@ export const fluvialGeomorphologyExplanations = [
       // ───── Channel & floodplain landforms (point bars, cut banks, oxbow lakes, floodplains, natural levees, deltas, alluvial fans) ─────
       {
         source: 'Sierra Vista SO 2023 — Dynamic Planet B, Q30',
+        explain: "A 'yazoo' stream runs alongside a big river for a long way because a raised bank (a natural levee) blocks it from joining. The original Yazoo River runs beside the Mississippi River in the state of Mississippi, so A.",
         question: 'Yazoo streams were named after an actual river that exhibits "yazoo" behavior — a tributary that runs parallel to a larger river for a long distance before joining it, kept separate by a natural levee. What major river did the original Yazoo River branch off from? A) Mississippi B) Nile C) Yangtze D) Mekong',
         choices: ['A) Mississippi', 'B) Nile', 'C) Yangtze', 'D) Mekong'],
         answer: 'A) Mississippi',
       },
       {
         source: 'Sierra Vista SO 2023 — Dynamic Planet B, Q34',
+        explain: "The labeled spot is on the inside of a curve where the water is slow and drops sand, making a little beach. That's a point bar.",
         images: [
           { url: `${IMG}/svso23-image7-umstead-stream.jpg`, caption: 'Image 7: stream at Umstead State Park, NC (feature at A)' },
         ],
@@ -758,6 +810,7 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'Rickards Invitational — Dynamic Planet B, Q69, Q71, Q73–75',
+        explain: "Horseshoe Bend is a huge loop. Someday the river may cut across the narrow neck and leave the loop behind as an oxbow lake. The neck is the skinny strip of land between the two sides of the loop. Sand piling up on the inside of the bend is a point bar, and the tall worn-away wall on the outside is a cut bank. The walls that keep the river in are levees.",
         images: [
           { url: `${IMG}/rickards-horseshoe-bend-map.jpg`, caption: 'Horseshoe Bend National Military Park map' },
           { url: `${IMG}/rickards-horseshoe-bend-photo.jpg`, caption: 'Horseshoe Bend' },
@@ -770,6 +823,7 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'UMSO 2023 — Dynamic Planet B, Section 1 Q2',
+        explain: "From above: a meandering river is one channel with snake-like loops. A braided river is many skinny channels weaving around bare sandbars. An anastomosing river has a few channels around islands covered in plants. An oxbow lake is a U-shaped lake sitting by itself, cut off from the river.",
         images: [
           { url: `${IMG}/umso23-s1q2-a.jpg`, caption: '(a)' },
           { url: `${IMG}/umso23-s1q2-b.jpg`, caption: '(b)' },
@@ -783,23 +837,27 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'BullSO Invitational — Dynamic Planet B, Q29',
+        explain: "When a loop of a river gets cut off and left behind, it becomes a U-shaped lake called an oxbow lake.",
         question: 'What is the name of a cutoff meander loop?',
         answer: 'Oxbow lake.',
       },
       {
         source: 'Troy Invitational 2021-22 — Dynamic Planet B, Q4',
+        explain: "An alluvial fan is a fan-shaped pile of sand and rock at the bottom of a mountain. When many fans sit side by side along a mountain and merge into one long apron, it's called a bajada (C). The other choices aren't names for joined fans.",
         question: 'The intersection of multiple alluvial fans is called: A) Channel B) Alluvial road C) Bajadas D) Valley E) Fjord',
         choices: ['A) Channel', 'B) Alluvial road', 'C) Bajadas', 'D) Valley', 'E) Fjord'],
         answer: 'C) Bajadas.',
       },
       {
         source: 'UT Invitational 2021 (Div. B/C) — Dynamic Planet, Q10',
+        explain: "A delta builds in three layers. Topset beds are on the flat top, foreset beds slope down the steep front, and bottomset beds lie flat on the bottom farther out. The bottom layers are the finest mud, because only tiny particles float that far. This key ranks foreset as coarsest, so the answer is D. Some textbooks put topset first, but every source agrees bottomset is finest.",
         question: 'Which of the following correctly ranks delta beds from coarsest sediment to finest sediment? A) Topset, foreset, bottomset B) Topset, bottomset, foreset C) Foreset, bottomset, topset D) Foreset, topset, bottomset',
         choices: ['A) Topset, foreset, bottomset', 'B) Topset, bottomset, foreset', 'C) Foreset, bottomset, topset', 'D) Foreset, topset, bottomset'],
         answer: 'D) Foreset, topset, bottomset — in a Gilbert-type delta, the steeply-dipping foreset beds carry the coarsest (often avalanched) sediment, topset beds are moderate, and bottomset beds (deep, suspension-settled) are finest.',
       },
       {
         source: 'UT Invitational 2021 (Div. B/C) — Dynamic Planet, Q28',
+        explain: "The picture shows a braided river: lots of skinny channels around sandbars. Braided rivers happen when the water flow changes a lot (C) and the river carries tons of sand and gravel (E). They are less common than straight channels (A is false), oxbow lakes come from meandering rivers (B is false), and they form on steep slopes, not gentle ones (D is false).",
         images: [
           { url: `${IMG}/ut21-imageD-channel.jpg`, caption: 'Image D' },
         ],
@@ -809,6 +867,7 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'UT Invitational 2021 (Div. B/C) — Dynamic Planet, Q35',
+        explain: "The picture is an alluvial fan at the bottom of a mountain canyon. Sudden flash floods rush out of the canyon, so the flood risk is high (B). The water drops its biggest rocks first, near the top of the fan (point A), and carries finer sand farther out (point B), so A is coarser than B (F). It wasn't made by a waterfall, a lake, or a delta, and fans form from fast, high-energy water, not calm water.",
         images: [
           { url: `${IMG}/ut21-imageE-landform.jpg`, caption: 'Image E' },
         ],
@@ -818,6 +877,7 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'UT Invitational 2021 (Div. B/C) — Dynamic Planet, Q41, Q43',
+        explain: "Water flows fastest near the top of the water, away from the bottom, where rubbing slows it down. The point 14 m out and 2 m deep is near the surface above the deep part, so it's fastest. The left side of the picture has a gentle slope where slow water drops sand: that's the point bar, and its sand is well sorted (similar-sized grains).",
         images: [
           { url: `${IMG}/ut21-q41-stream-profile.jpg`, caption: 'Stream profile: water depth vs. distance from A' },
         ],
@@ -826,29 +886,34 @@ export const fluvialGeomorphologyExplanations = [
       },
       {
         source: 'University of Chicago Invitational 2022 — Dynamic Planet B, Q14',
+        explain: "The wide, flat land beside a river, built up by mud left behind from floods, is a floodplain (A). A delta forms where a river meets the sea, an alluvial fan forms at a mountain's base, and a meander is a bend.",
         question: 'The broad strip of land built up by sedimentation on either side of a stream channel is: A) A flood plain B) A delta C) An alluvial fan D) A meander',
         choices: ['A) A flood plain', 'B) A delta', 'C) An alluvial fan', 'D) A meander'],
         answer: 'A) A flood plain.',
       },
       {
         source: 'University of Chicago Invitational 2022 — Dynamic Planet B, Q15–16',
+        explain: "Q15: water moves faster on the outside of a bend, like the outside lane on a race track, so C, higher. Q16: sinuosity measures how curvy a river is (river length ÷ straight-line distance). A perfectly straight river is the same length both ways, so its sinuosity is 1.",
         question: "(15) A river's velocity is ___ on the outside of a meander curve compared to the inside: A) equal B) lower C) higher. (16) A stream that doesn't meander at all has a sinuosity of ___.",
         answer: '(15) C) Higher. (16) 1 (a perfectly straight stream has a sinuosity of 1.0, since channel length equals straight-line distance).',
       },
       {
         source: 'University of Chicago Invitational 2022 — Dynamic Planet B, Q43',
+        explain: "During a flood, water spills over the riverbank and suddenly slows down as it spreads out, like a kid stopping at the end of a slide. Slow water can't carry heavy sand, so it drops it right at the edge of the river. Flood after flood, that sand builds a raised ridge called a natural levee.",
         question: 'How is a natural levee formed?',
         answer:
           "A stream reaches its greatest velocity near bank-full stage. Once the flooding stream overtops its banks onto the wide floodplain, the water spreads over a much larger area and its velocity drops sharply — so sediment that was being carried by the high-velocity water is deposited right at the channel edge, building up a natural levee.",
       },
       {
         source: 'University of Chicago Invitational 2022 — Dynamic Planet B, Q46',
+        explain: "Two things make an oxbow lake. Erosion (B) eats away the outside of the bends until the loop's neck is very thin and the river cuts through. Deposition (C) then drops mud that plugs the ends of the old loop, sealing it off as a lake. Faults, faster water, or flooding alone don't explain it.",
         question: 'How is an oxbow lake formed? (Select all that apply) A) Tectonic activity B) Erosion C) Deposition D) Increased stream velocity E) Flooding',
         choices: ['A) Tectonic activity', 'B) Erosion', 'C) Deposition', 'D) Increased stream velocity', 'E) Flooding'],
         answer: "B and C — erosion deepens/widens a meander's outer bends while deposition narrows and eventually seals off the neck, cutting off the loop to form the oxbow lake.",
       },
       {
         source: 'Highlands Invitational 2022 — Dynamic Planet B, Q74–75',
+        explain: "(74) If a river mostly carries sand and gravel and flows through its own loose sand, it's an alluvial channel. 'Alluvium' just means river-dropped sediment. (75) Potholes are round holes drilled into solid rock by swirling pebbles, so they only form where the river flows over bare rock: a bedrock channel.",
         question: "(74) Suppose a certain stream's load is mainly sand and gravel — would you expect this to be a meandering, bedrock, braided, or alluvial channel? (75) Suppose a certain channel has potholes — is this more likely an alluvial, braided, bedrock, or meandering channel?",
         answer: '(74) Alluvial channel (a channel flowing through its own unconsolidated sand/gravel deposits). (75) Bedrock channel (potholes form where fast, sediment-laden water abrades depressions directly into exposed bedrock).',
       },
@@ -856,17 +921,20 @@ export const fluvialGeomorphologyExplanations = [
       // ───── Sinuosity (cross-cutting measurement used throughout this topic) ─────
       {
         source: 'Rickards Invitational — Dynamic Planet B, Q6–7',
+        explain: "Sinuosity = how long the river really is ÷ the straight-line distance. 2 km ÷ 2 km = 1, which means perfectly straight. Manoa's 1.67 means the river is about 1⅔ times longer than a straight line, curvy enough to count as meandering (over 1.5).",
         question:
           'A stream travels 2 km (water distance) from source to mouth, and the straight-line distance is also 2 km — what is its sinuosity? Separately, the Manoa stream has a measured sinuosity of 1.67 — is it straight, sinuous, meandering, or highly meandering?',
         answer: 'Sinuosity = 2 km / 2 km = 1 (a straight stream). A sinuosity of 1.67 classifies the Manoa stream as meandering (typical ranges: <1.05 straight, 1.05–1.5 sinuous, 1.5–4 meandering, >4 tortuous).',
       },
       {
         source: 'Troy Invitational 2021-22 — Dynamic Planet B, Q44',
+        explain: "Sinuosity = river length ÷ straight-line distance, so straight-line distance = river length ÷ sinuosity = 57 ÷ 2.1 ≈ 27 m. A sinuosity of 2.1 means the river is twice as long as a straight path, so it's curvy (meandering).",
         question: 'A hydrologist measures a river channel length of 57 m with a sinuosity of 2.1. What straight-line distance does this channel actually span, and what type of channel is this?',
         answer: 'Straight-line distance = 57 / 2.1 ≈ 27.14 m. With a sinuosity of 2.1, this would be classified as a sinuous/meandering channel.',
       },
       {
         source: 'BirdSO Invitational — Dynamic Planet B, Section 2 Q11',
+        explain: "Sinuosity compares the river's length to the straight-line distance. A river can never be shorter than a straight line between two points, because a straight line is the shortest path. So sinuosity can never be less than 1, and 0.45 is impossible.",
         question: 'A student calculates the sinuosity of a certain stream to be 0.45. How can one immediately tell that this value is unreasonable?',
         answer: "Sinuosity can never be less than 1 — the actual channel length between two points can never be shorter than the straight-line distance between them, so a sinuosity below 1.0 is physically impossible.",
       },

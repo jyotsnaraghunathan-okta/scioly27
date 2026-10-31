@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>River channel patterns (straight, meandering, braided, anastomosing) and channel shapes by sediment load</title>
+  <rect width="1000" height="660" fill="#ffffff"/>
+
+  <!-- ===================== ROW 1: PATTERNS FROM ABOVE ===================== -->
+  <text x="15" y="30" font-size="19" font-weight="700" fill="#1f2937">1. The four river patterns, seen from above (water flows left → right)</text>
+
+  <!-- Straight -->
+  <g transform="translate(15,48)">
+    <rect width="230" height="200" rx="6" fill="#d9f0c4"/>
+    <rect x="0" y="78" width="230" height="44" fill="#3b82f6"/>
+    <ellipse cx="40" cy="86" rx="30" ry="7" fill="#f2d48a"/>
+    <ellipse cx="115" cy="114" rx="30" ry="7" fill="#f2d48a"/>
+    <ellipse cx="190" cy="86" rx="30" ry="7" fill="#f2d48a"/>
+    <path d="M0,110 Q40,114 77,100 Q115,86 152,100 Q190,114 230,108" stroke="#ffffff" stroke-width="2.5" stroke-dasharray="6 5" fill="none"/>
+    <text x="115" y="160" font-size="12" fill="#1f2937" text-anchor="middle">white dashes = deepest path</text>
+    <text x="115" y="176" font-size="12" fill="#1f2937" text-anchor="middle">tan = sand bars</text>
+  </g>
+  <g font-size="13" fill="#1f2937" text-anchor="middle">
+    <text x="130" y="272" font-size="17" font-weight="700">Straight</text>
+    <text x="130" y="290">One channel, hardly any bends</text>
+    <text x="130" y="306">Rare in nature</text>
+  </g>
+
+  <!-- Meandering -->
+  <g transform="translate(262,48)">
+    <rect width="230" height="200" rx="6" fill="#d9f0c4"/>
+    <path d="M0,100 C40,100 40,40 85,40 C130,40 130,160 175,160 C210,160 215,100 230,100" stroke="#3b82f6" stroke-width="16" fill="none"/>
+    <path d="M65,60 Q85,82 105,60 Q85,68 65,60 Z" fill="#f2d48a" stroke="#c9a24c" stroke-width="1.5"/>
+    <path d="M155,140 Q175,118 195,140 Q175,132 155,140 Z" fill="#f2d48a" stroke="#c9a24c" stroke-width="1.5"/>
+    <path d="M18,182 C18,150 66,150 66,182" stroke="#3b82f6" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <text x="74" y="186" font-size="12" fill="#1f2937">oxbow lake</text>
+  </g>
+  <g font-size="13" fill="#1f2937" text-anchor="middle">
+    <text x="377" y="272" font-size="17" font-weight="700">Meandering</text>
+    <text x="377" y="290">One channel with loopy S-bends</text>
+    <text x="377" y="306">Gentle slope, carries mostly mud</text>
+  </g>
+
+  <!-- Braided -->
+  <g transform="translate(509,48)">
+    <rect width="230" height="200" rx="6" fill="#d9f0c4"/>
+    <rect x="0" y="50" width="230" height="104" fill="#e8d3a6"/>
+    <g stroke="#3b82f6" stroke-width="6" fill="none" stroke-linecap="round">
+      <path d="M0,72 C40,68 60,94 100,90 C140,86 160,60 230,68"/>
+      <path d="M0,108 C30,112 60,92 100,90"/>
+      <path d="M100,90 C130,94 150,124 230,118"/>
+      <path d="M0,136 C50,132 80,110 120,114 C160,118 190,140 230,138"/>
+      <path d="M55,100 C78,112 98,118 120,114"/>
+      <path d="M160,72 C175,88 190,98 230,96"/>
+    </g>
+    <text x="115" y="180" font-size="12" fill="#1f2937" text-anchor="middle">bare sand and gravel bars</text>
+  </g>
+  <g font-size="13" fill="#1f2937" text-anchor="middle">
+    <text x="624" y="272" font-size="17" font-weight="700">Braided</text>
+    <text x="624" y="290">Many shallow channels split and rejoin</text>
+    <text x="624" y="306">Steep, carries lots of sand and gravel</text>
+  </g>
+
+  <!-- Anastomosing -->
+  <g transform="translate(756,48)">
+    <rect width="230" height="200" rx="6" fill="#d9f0c4"/>
+    <rect x="0" y="46" width="230" height="110" fill="#3b82f6"/>
+    <ellipse cx="70" cy="80" rx="48" ry="19" fill="#5f9a3a"/>
+    <ellipse cx="78" cy="126" rx="42" ry="14" fill="#5f9a3a"/>
+    <ellipse cx="170" cy="102" rx="52" ry="24" fill="#5f9a3a"/>
+    <g fill="#2f6b2f">
+      <circle cx="52" cy="78" r="6"/><circle cx="70" cy="74" r="6"/><circle cx="90" cy="82" r="6"/>
+      <circle cx="66" cy="126" r="5"/><circle cx="88" cy="124" r="5"/>
+      <circle cx="148" cy="98" r="6"/><circle cx="168" cy="92" r="6"/><circle cx="190" cy="104" r="6"/><circle cx="170" cy="112" r="6"/>
+    </g>
+    <text x="115" y="180" font-size="12" fill="#1f2937" text-anchor="middle">islands covered in plants</text>
+  </g>
+  <g font-size="13" fill="#1f2937" text-anchor="middle">
+    <text x="871" y="272" font-size="17" font-weight="700">Anastomosing</text>
+    <text x="871" y="290">Several channels around stable islands</text>
+    <text x="871" y="306">Very flat, muddy banks</text>
+  </g>
+
+  <!-- ===================== ROW 2: CROSS-SECTIONS BY LOAD ===================== -->
+  <text x="15" y="360" font-size="19" font-weight="700" fill="#1f2937">2. What the river carries shapes its channel (slice across the river)</text>
+
+  <!-- Suspended load: narrow & deep -->
+  <g transform="translate(15,380)">
+    <path d="M0,40 L110,40 Q114,150 155,150 Q196,150 200,40 L310,40 L310,170 L0,170 Z" fill="#b9895a"/>
+    <path d="M0,40 L110,40 M200,40 L310,40" stroke="#7aa64a" stroke-width="6"/>
+    <path d="M112,52 Q117,147 155,147 Q193,147 198,52 Z" fill="#3b82f6"/>
+    <g fill="#7a5230" opacity="0.8">
+      <circle cx="135" cy="70" r="2"/><circle cx="160" cy="80" r="2"/><circle cx="175" cy="66" r="2"/><circle cx="145" cy="100" r="2"/>
+      <circle cx="170" cy="110" r="2"/><circle cx="130" cy="120" r="2"/><circle cx="155" cy="130" r="2"/><circle cx="185" cy="95" r="2"/>
+      <circle cx="150" cy="60" r="2"/><circle cx="140" cy="88" r="2"/><circle cx="165" cy="98" r="2"/><circle cx="178" cy="128" r="2"/>
+    </g>
+  </g>
+  <g font-size="13" fill="#1f2937" text-anchor="middle">
+    <text x="170" y="578" font-size="16" font-weight="700">Suspended-load channel</text>
+    <text x="170" y="596">Carries mostly fine mud floating in the water</text>
+    <text x="170" y="613">Narrow and deep</text>
+    <text x="170" y="630">Very curvy (meandering), stable banks</text>
+  </g>
+
+  <!-- Mixed load -->
+  <g transform="translate(345,380)">
+    <path d="M0,40 L75,40 Q90,118 155,118 Q220,118 235,40 L310,40 L310,170 L0,170 Z" fill="#b9895a"/>
+    <path d="M0,40 L75,40 M235,40 L310,40" stroke="#7aa64a" stroke-width="6"/>
+    <path d="M78,52 Q92,115 155,115 Q218,115 232,52 Z" fill="#3b82f6"/>
+    <g fill="#7a5230" opacity="0.8">
+      <circle cx="120" cy="70" r="2"/><circle cx="160" cy="80" r="2"/><circle cx="195" cy="66" r="2"/><circle cx="140" cy="95" r="2"/><circle cx="185" cy="92" r="2"/>
+    </g>
+    <g fill="#8d8d8d">
+      <circle cx="135" cy="111" r="4"/><circle cx="155" cy="113" r="4"/><circle cx="175" cy="111" r="4"/>
+    </g>
+  </g>
+  <g font-size="13" fill="#1f2937" text-anchor="middle">
+    <text x="500" y="578" font-size="16" font-weight="700">Mixed-load channel</text>
+    <text x="500" y="596">Carries some mud and some sand</text>
+    <text x="500" y="613">In between: medium width and depth</text>
+    <text x="500" y="630">Medium curviness</text>
+  </g>
+
+  <!-- Bed load: wide & shallow -->
+  <g transform="translate(675,380)">
+    <path d="M0,40 L18,40 Q40,92 155,94 Q270,92 292,40 L310,40 L310,170 L0,170 Z" fill="#b9895a"/>
+    <path d="M0,40 L18,40 M292,40 L310,40" stroke="#7aa64a" stroke-width="6"/>
+    <path d="M24,52 Q46,90 155,91 Q264,90 286,52 Z" fill="#3b82f6"/>
+    <g fill="#8d8d8d">
+      <circle cx="70" cy="80" r="5"/><circle cx="92" cy="85" r="4"/><circle cx="115" cy="87" r="5"/><circle cx="140" cy="88" r="4"/>
+      <circle cx="165" cy="88" r="5"/><circle cx="190" cy="87" r="4"/><circle cx="214" cy="85" r="5"/><circle cx="238" cy="80" r="4"/>
+    </g>
+  </g>
+  <g font-size="13" fill="#1f2937" text-anchor="middle">
+    <text x="830" y="578" font-size="16" font-weight="700">Bed-load channel</text>
+    <text x="830" y="596">Carries mostly sand and gravel rolling on the bottom</text>
+    <text x="830" y="613">Wide and shallow</text>
+    <text x="830" y="630">Straight or braided, banks wear away easily</text>
+  </g>
+</svg>

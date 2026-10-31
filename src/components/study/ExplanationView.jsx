@@ -1,6 +1,12 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Badge from '../common/Badge'
+import { useLocalStorage } from '../../hooks/useLocalStorage'
+
+const PQ_MODES = [
+  { id: 'answers', label: 'Questions & answers' },
+  { id: 'questions', label: 'Questions only' },
+]
 
 function OrganismImage({ url, caption, alt }) {
   const [failed, setFailed] = useState(false)
@@ -86,6 +92,9 @@ function WorkedExample({ example, index }) {
 }
 
 export default function ExplanationView({ topic, explanation }) {
+  const [pqMode, setPqMode] = useLocalStorage('sc27-pq-mode', 'answers')
+  const showAnswers = pqMode !== 'questions'
+
   if (!explanation) {
     return (
       <div className="text-center py-12 text-gray-500">
@@ -151,6 +160,16 @@ export default function ExplanationView({ topic, explanation }) {
             <div className="text-gray-600 text-sm leading-relaxed whitespace-pre-line mb-4">
               {section.content}
             </div>
+            {section.diagram && (
+              <figure className="mb-4">
+                <a href={section.diagram.url} target="_blank" rel="noopener noreferrer" className="block rounded-lg overflow-hidden border border-gray-200 bg-white">
+                  <img src={section.diagram.url} alt={section.diagram.alt || section.diagram.caption || 'Diagram'} className="w-full h-auto" />
+                </a>
+                {section.diagram.caption && (
+                  <figcaption className="text-xs text-gray-500 text-center mt-1.5">{section.diagram.caption}</figcaption>
+                )}
+              </figure>
+            )}
             {section.keyPoints && section.keyPoints.length > 0 && (
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-4 border border-blue-100">
                 <p className="text-sm font-semibold text-blue-700 mb-2">Key Points</p>
@@ -177,8 +196,29 @@ export default function ExplanationView({ topic, explanation }) {
         {/* Previous Competition Questions */}
         {(explanation.previousQuestions?.length > 0 || explanation.previousQuestionsNote) && (
           <div className="bg-white rounded-lg border border-indigo-200 p-5">
-            <h3 className="font-semibold text-indigo-800 mb-1 text-lg">📋 Previous Competition Questions</h3>
-            <p className="text-xs text-indigo-500 mb-4">Real questions pulled from past tournament papers, with source.</p>
+            <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
+              <div>
+                <h3 className="font-semibold text-indigo-800 mb-1 text-lg">📋 Previous Competition Questions</h3>
+                <p className="text-xs text-indigo-500">Real questions pulled from past tournament papers, with source.</p>
+              </div>
+              {explanation.previousQuestions?.length > 0 && (
+                <div role="group" aria-label="Show answers or questions only" className="inline-flex rounded-lg border border-indigo-200 bg-indigo-50 p-0.5">
+                  {PQ_MODES.map((m) => (
+                    <button
+                      key={m.id}
+                      type="button"
+                      onClick={() => setPqMode(m.id)}
+                      aria-pressed={pqMode === m.id}
+                      className={`px-3 py-1.5 text-xs font-medium rounded-md border-none cursor-pointer transition-colors ${
+                        pqMode === m.id ? 'bg-indigo-600 text-white shadow-sm' : 'bg-transparent text-indigo-700 hover:bg-indigo-100'
+                      }`}
+                    >
+                      {m.label}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
             {explanation.previousQuestions?.length > 0 ? (
               <div className="space-y-3">
                 {explanation.previousQuestionsNote && (
@@ -195,9 +235,14 @@ export default function ExplanationView({ topic, explanation }) {
                         </ul>
                       )}
                     </div>
-                    {pq.answer && (
+                    {showAnswers && pq.answer && (
                       <div className="bg-green-50 px-4 py-2">
                         <p className="text-sm text-green-800"><span className="font-semibold">Answer:</span> {pq.answer}</p>
+                      </div>
+                    )}
+                    {showAnswers && pq.explain && (
+                      <div className="bg-amber-50 px-4 py-2 border-t border-amber-100">
+                        <p className="text-sm text-amber-900 whitespace-pre-line"><span className="font-semibold">💡 In simple words:</span> {pq.explain}</p>
                       </div>
                     )}
                     {pq.source && (
