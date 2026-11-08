@@ -227,6 +227,13 @@ export default function ExplanationView({ topic, explanation }) {
                 {explanation.previousQuestions.map((pq, i) => (
                   <div key={i} className="rounded-lg border border-indigo-100 overflow-hidden">
                     <div className="bg-indigo-50 px-4 py-2">
+                      {pq.tags?.length > 0 && (
+                        <div className="flex flex-wrap gap-1 mb-1.5">
+                          {pq.tags.map((t) => (
+                            <span key={t.label} className="text-[11px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-medium">{t.label}</span>
+                          ))}
+                        </div>
+                      )}
                       <p className="text-sm text-indigo-900 font-medium">{pq.question}</p>
                       {pq.images?.length > 0 && <QuestionImages images={pq.images} />}
                       {pq.choices?.length > 0 && (

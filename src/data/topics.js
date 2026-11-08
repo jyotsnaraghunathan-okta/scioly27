@@ -81,6 +81,7 @@ export const topics = [
       { id: 'outer-planet-missions', name: 'Outer Planet Missions (Cassini, Galileo, Europa Clipper, Dragonfly)', level: 'Regional' },
       { id: 'small-body-missions', name: 'Small Body Missions (OSIRIS-REx, Rosetta, DAVINCI+, VERITAS)', level: 'State' },
       { id: 'space-telescopes', name: 'Space Telescopes (JWST, Kepler, TESS, Spitzer)', level: 'Regional' },
+      { id: 'previous-questions', name: 'Previous Years Q&A', level: 'Reference' },
     ],
   },
   // ===== DYNAMIC PLANET =====

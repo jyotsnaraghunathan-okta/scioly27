@@ -3,6 +3,7 @@ import { solarSystemHabitabilityExplanations } from './solarSystemHabitability'
 import { exoplanetSystemsExplanations } from './exoplanetSystems'
 import { biosignaturesDetectionExplanations } from './biosignaturesDetection'
 import { missionsInstrumentsExplanations } from './missionsInstruments'
+import { missionsPreviousQuestions } from './missionsPreviousQuestions'
 import { fluvialGeomorphologyExplanations } from './fluvialGeomorphology'
 import { measuringMonitoringExplanations } from './measuringMonitoring'
 import { geologicRecordExplanations } from './geologicRecord'
@@ -28,6 +29,7 @@ export const allExplanations = [
   ...exoplanetSystemsExplanations,
   ...biosignaturesDetectionExplanations,
   ...missionsInstrumentsExplanations,
+  ...missionsPreviousQuestions,
   ...fluvialGeomorphologyExplanations,
   ...measuringMonitoringExplanations,
   ...geologicRecordExplanations,
