@@ -234,7 +234,10 @@ export default function ExplanationView({ topic, explanation }) {
                           ))}
                         </div>
                       )}
-                      <p className="text-sm text-indigo-900 font-medium">{pq.question}</p>
+                      <p className="text-sm text-indigo-900 font-medium">
+                        <span className="font-bold text-indigo-700 mr-1">Q{i + 1}.</span>
+                        {pq.question}
+                      </p>
                       {pq.images?.length > 0 && <QuestionImages images={pq.images} />}
                       {pq.choices?.length > 0 && (
                         <ul className="mt-1 text-xs text-indigo-700 space-y-0.5">
