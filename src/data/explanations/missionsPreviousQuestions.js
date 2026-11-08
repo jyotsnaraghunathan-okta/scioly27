@@ -56,6 +56,9 @@ export const missionsPreviousQuestions = [
       {
         source: `${S.uti}, Q15`,
         tags: tags('MRO'),
+        images: [
+          { url: `${IMG}/uti22-image20.jpg`, caption: 'Image 20: Chasma Boreale' },
+        ],
         question: 'Image 20 shows Chasma Boreale, a large canyon in Mars\'s north polar ice cap. (a) What spacecraft or telescope took this image? (b) What instrument collected the data? (c) The darker areas are thought to be dust. How might dust affect whether (and how quickly) ice melts?',
         answer: '(a) Mars Reconnaissance Orbiter (MRO). (b) HiRISE. (c) Dust is dark, so it absorbs more sunlight and makes the ice under it melt (or sublimate) more and faster.',
         explain: `HiRISE is MRO's super-sharp camera. From orbit it can see things about the size of a kitchen table. The dust idea works like wearing a black T-shirt on a sunny day: dark things soak up more sunlight and warm up faster than bright things.`,
@@ -162,13 +165,20 @@ export const missionsPreviousQuestions = [
       {
         source: `${S.uti}, Q8`,
         tags: tags('Galileo'),
-        question: '(a) Image 6 shows the distribution of a sulfur-containing compound on Europa\'s surface. What compound? (b) How do scientists think it got there? (c) Which spacecraft collected the data for Image 6 (its illustration is on the image sheet)?',
-        answer: '(a) Sulfuric acid (hydrated). (b) Sulfur from Io\'s volcanoes is carried by Jupiter\'s magnetosphere and hits Europa\'s trailing hemisphere, where it reacts with oxygen and hydrogen to make sulfuric acid. (c) Galileo (Image 14 on the image sheet), whose NIMS infrared spectrometer made the map.',
+        images: [
+          { url: `${IMG}/uti22-image6.jpg`, caption: 'Image 6' },
+          { url: `${IMG}/uti22-image14.jpg`, caption: 'Image 14' },
+        ],
+        question: '(a) Image 6 shows the distribution of a sulfur-containing compound on Europa\'s surface. What compound? (b) How do scientists think it got there? (c) Which image shows an illustration of the spacecraft that collected the data for Image 6?',
+        answer: '(a) Sulfuric acid (hydrated). (b) Sulfur from Io\'s volcanoes is carried by Jupiter\'s magnetosphere and hits Europa\'s trailing hemisphere, where it reacts with oxygen and hydrogen to make sulfuric acid. (c) Image 14, the Galileo spacecraft, whose NIMS infrared spectrometer made the map.',
         explain: `Io is the most volcanic place in the Solar System. Its sulfur gets swept around Jupiter and splatters onto the back side of Europa, the side facing away from the direction Europa moves. That's why that side looks darker and contains more sulfuric acid.`,
       },
       {
         source: `${S.uti}, Q12`,
         tags: tags('Galileo'),
+        images: [
+          { url: `${IMG}/uti22-image13.jpg`, caption: 'Image 13' },
+        ],
         question: '(a) What object is shown in Image 13? (b) What spacecraft or telescope took this image? (c) Chemically, what is the difference between the white-blue areas and the red-orange areas?',
         answer: '(a) Europa. (b) Galileo. (c) White-blue areas are fairly pure water ice. Red-orange areas are water ice mixed with hydrated salts.',
         explain: `Galileo's colorized images show clean ice as white or blue. The rusty colors mark places where salty, "dirty" material got mixed into the ice, possibly from the ocean below.`,
@@ -243,8 +253,14 @@ export const missionsPreviousQuestions = [
       {
         source: `${S.uti}, Q7 & Q9`,
         tags: tags('Cassini-Huygens'),
-        question: '(7) Image 5 was taken in what part of the spectrum? Which spacecraft or telescope took both this image and Image 15 (the same object in visible light)? (9) Image 7 shows two "lakes" on Titan. (a) What are they made of? (b) What spacecraft took Image 7? (c) What instrument collected the data? (d) The lake on the right has lighter patches. Why might that be?',
-        answer: '(7) Infrared; Cassini (illustrated in Image 19). (9a) Hydrocarbons (methane and ethane). (9b) Cassini. (9c) Its radar mapper. (9d) The lake may be slowly drying out as northern summer approaches.',
+        images: [
+          { url: `${IMG}/uti22-image5.jpg`, caption: 'Image 5' },
+          { url: `${IMG}/uti22-image15.jpg`, caption: 'Image 15' },
+          { url: `${IMG}/uti22-image19.jpg`, caption: 'Image 19' },
+          { url: `${IMG}/uti22-image7.jpg`, caption: 'Image 7: two lakes on Titan' },
+        ],
+        question: '(7a) In what part of the spectrum was Image 5 taken? (7b) Which image shows this object in visible light? (7c) What spacecraft or telescope took both images? (7d) Which image shows an illustration of this spacecraft? (9) Image 7 shows two "lakes" on Titan. (a) What are they made of? (b) What spacecraft took Image 7? (c) What instrument collected the data? (d) The lake on the right has lighter patches. Why might that be?',
+        answer: '(7a) Infrared. (7b) Image 15. (7c) Cassini. (7d) Image 19. (Both images show Titan.) (9a) Hydrocarbons (methane and ethane). (9b) Cassini (Image 19). (9c) Its radar mapper. (9d) The lake may be slowly drying out as northern summer approaches.',
         explain: `Cassini's radar could "see" through Titan's haze, the same trick used at cloudy Venus. Liquid methane and ethane are very smooth, so the lakes reflect radar away and look black. Lighter patches mean the lake is getting shallower or drying up.`,
       },
       {
@@ -328,6 +344,10 @@ export const missionsPreviousQuestions = [
       {
         source: `${S.uti}, Q6`,
         tags: tags('OSIRIS-REx'),
+        images: [
+          { url: `${IMG}/uti22-image4.jpg`, caption: 'Image 4' },
+          { url: `${IMG}/uti22-image12.jpg`, caption: 'Image 12' },
+        ],
         question: '(a) What object is shown in Image 4? (b) Is it a planet, moon, asteroid or comet? (c) In 2018 this object was visited by a NASA mission. What was its name? (d) What other image shows this object?',
         answer: '(a) 101955 Bennu. (b) Asteroid. (c) OSIRIS-REx. (d) Image 12.',
         explain: `OSIRIS-REx arrived at Bennu in December 2018, mapped it for almost two years, grabbed a sample in October 2020, and headed home.`,
@@ -351,6 +371,9 @@ export const missionsPreviousQuestions = [
       {
         source: `${S.svso}, Section B Q2(j, l)`,
         tags: tags('Rosetta'),
+        images: [
+          { url: `${IMG}/svso23-imageM.jpg`, caption: 'Image M' },
+        ],
         question: '(j) What is the name of this object (a comet with a similar composition to Bennu), and what spacecraft has observed it most closely? (l) What amino acid, highly relevant to the origin of life, was found on this object?',
         answer: '(j) 67P/Churyumov–Gerasimenko; Rosetta. (l) Glycine.',
         explain: `Rosetta (ESA) orbited comet 67P from 2014 to 2016 and dropped the little Philae lander on it. Its ROSINA instrument sniffed the gas around the comet and found glycine, the simplest amino acid. That supports the idea that comets helped deliver life's ingredients to the early Earth.`,
@@ -366,8 +389,11 @@ export const missionsPreviousQuestions = [
       {
         source: `${S.uti}, Q14`,
         tags: tags('Rosetta'),
-        question: '(a) What is the name of the one comet on this year\'s rules? (c) Scientists measured the deuterium-to-hydrogen ratio in the water vapor around this comet. What is deuterium? (d) The ratio was significantly higher than Earth\'s water. Based on this, did Earth\'s water likely come from comets like this?',
-        answer: '(a) 67P/Churyumov–Gerasimenko. (c) An isotope of hydrogen with one neutron (instead of zero). (d) No, or at least not only from them. Earth\'s water should have the same chemical signature as wherever it came from.',
+        images: [
+          { url: `${IMG}/uti22-image9.jpg`, caption: 'Image 9' },
+        ],
+        question: '(a) What is the name of the one comet on this year\'s rules? (b) What image shows this comet? (c) Scientists measured the deuterium-to-hydrogen ratio in the water vapor around this comet. What is deuterium? (d) The ratio was significantly higher than Earth\'s water. Based on this, did Earth\'s water likely come from comets like this?',
+        answer: '(a) 67P/Churyumov–Gerasimenko. (b) Image 9. (c) An isotope of hydrogen with one neutron (instead of zero). (d) No, or at least not only from them. Earth\'s water should have the same chemical signature as wherever it came from.',
         explain: `Rosetta measured 67P's water and found about 3 times more "heavy hydrogen" (deuterium) than Earth's oceans. Water from different places has different D/H "fingerprints." Since 67P's fingerprint doesn't match, comets like it probably weren't the main source of Earth's oceans. Asteroids match better.`,
       },
 
